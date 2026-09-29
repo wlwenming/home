@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>欢迎光临</title>
+  <title>文明的视界</title>
   <style>
     * { box-sizing: border-box; }
     html, body { height: 100%; margin: 0; }
@@ -18,7 +18,7 @@
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Microsoft YaHei", sans-serif;
       color: #fff;
       text-align: center;
-      padding: 1rem;
+      padding: 2rem 1rem;
       position: relative;
     }
     .nav {
@@ -36,18 +36,42 @@
       transition: background 0.2s;
     }
     .nav a:hover { background: rgba(255, 255, 255, 0.15); }
-    h1 {
-      font-size: clamp(2.5rem, 9vw, 5.5rem);
-      margin: 0 0 1rem;
+    .brand {
+      font-size: clamp(2rem, 7vw, 4rem);
+      margin: 0 0 1.5rem;
       text-shadow: 0 4px 24px rgba(0, 0, 0, 0.25);
-      letter-spacing: 0.05em;
-      animation: fadeIn 1.2s ease-out;
+      letter-spacing: 0.08em;
+      animation: fadeIn 1s ease-out;
     }
-    p {
-      font-size: clamp(1rem, 3vw, 1.5rem);
-      opacity: 0.92;
-      margin: 0.4rem 0;
-      animation: fadeIn 1.6s ease-out;
+    .brand .accent {
+      display: inline-block;
+      transform: rotate(-2deg);
+      opacity: 0.9;
+    }
+    .greeting {
+      max-width: 640px;
+      margin: 0 auto;
+      padding: 1.5rem 1.5rem 0.5rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.25);
+      animation: fadeIn 1.4s ease-out;
+    }
+    .greeting p {
+      font-size: clamp(1rem, 2.6vw, 1.35rem);
+      line-height: 1.9;
+      opacity: 0.95;
+      margin: 0.3rem 0;
+    }
+    .greeting .sig {
+      margin-top: 1rem;
+      font-size: 0.95rem;
+      opacity: 0.8;
+      font-style: italic;
+    }
+    .tagline {
+      margin-top: 1.2rem;
+      font-size: 0.9rem;
+      opacity: 0.7;
+      animation: fadeIn 1.8s ease-out;
     }
     @keyframes fadeIn {
       from { opacity: 0; transform: translateY(20px); }
@@ -57,8 +81,70 @@
 </head>
 <body>
   <nav class="nav"><a href="help.html">help</a></nav>
-  <h1>欢迎光临！</h1>
-  <p>你好，朋友，很高兴在这里遇见你。</p>
-  <p>这是 wlwenming 的个人主页，愿你今天一切顺利。</p>
+
+  <h1 class="brand">文明的<span class="accent">视界</span></h1>
+
+  <div class="greeting" id="greeting"><!-- 随机欢迎语注入处 --></div>
+
+  <div class="tagline">刷新页面，换一句心情 ✨</div>
+
+  <script>
+    const greetings = [
+      {
+        // 温馨
+        text: '<p>愿你在这里放慢脚步，</p><p>看见一点温暖，带走一份好心情。</p>',
+        sig: '—— 世界很大，幸好我们相遇。'
+      },
+      {
+        // 有趣
+        text: '<p>这里没有广告，没有弹窗，</p><p>只有一个人、一句话，和一整片好心情。</p>',
+        sig: '—— 既然来了，就别急着走啦 :)'
+      },
+      {
+        // 励志
+        text: '<p>每一次睁开眼，都是新的视界；</p><p>每一次出发，都离梦想更近一步。</p>',
+        sig: '—— 愿你眼里有光，心中有梦，脚下有路。'
+      },
+      {
+        // 正能量
+        text: '<p>世界或许不完美，</p><p>但善意、热爱与坚持，总会让一切慢慢变好。</p>',
+        sig: '—— 今天也要元气满满哦！'
+      },
+      {
+        // 温馨 + 励志 混合
+        text: '<p>生活像一扇窗，推开是风景，关上是安宁。</p><p>愿你在这片视界里，</p><p>既看得见远方，也守得住心安。</p>',
+        sig: '—— 慢慢走，美好都在路上。'
+      },
+      {
+        // 有趣 + 正能量 混合
+        text: '<p>今日份的小确幸已送达：</p><p>一个微笑、一句你好、一整片晴朗。</p><p>请查收，并把它传递下去。</p>',
+        sig: '—— 你也是别人的好心情之一呀。'
+      },
+      {
+        // 温馨
+        text: '<p>外面的世界很热闹，</p><p>这里是一小小的、安静的角落。</p><p>愿你在这一隅，</p><p>能歇一歇，再出发。</p>',
+        sig: '—— 歇脚处，也是风景。'
+      },
+      {
+        // 有趣
+        text: '<p>温馨提示：</p><p>本站不含焦虑、不含压力、0 卡路里。</p><p>可放心浏览，副作用仅为嘴角上扬。</p>',
+        sig: '—— 请保持微笑，有人在偷偷看你呢。'
+      },
+      {
+        // 励志
+        text: '<p>所谓视界，</p><p>不过是敢多走一步、多看一眼。</p><p>再远的远方，</p><p>也不过是一步步走到的远方。</p>',
+        sig: '—— 走着走着，花就开了。'
+      },
+      {
+        // 正能量
+        text: '<p>如果你今天有点累，</p><p>那就允许自己只做一件事——</p><p>好好呼吸，好好存在。</p><p>你本身，就已足够好。</p>',
+        sig: '—— 世界需要你这样温柔的人。'
+      }
+    ];
+
+    const g = greetings[Math.floor(Math.random() * greetings.length)];
+    document.getElementById('greeting').innerHTML =
+      g.text + '<div class="sig">' + g.sig + '</div>';
+  </script>
 </body>
 </html>

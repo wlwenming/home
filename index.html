@@ -73,6 +73,52 @@
       opacity: 0.7;
       animation: fadeIn 1.8s ease-out;
     }
+    .footer {
+      position: absolute;
+      bottom: 1.2rem;
+      left: 0;
+      right: 0;
+      text-align: center;
+      font-size: 0.85rem;
+      opacity: 0.75;
+      animation: fadeIn 2s ease-out;
+    }
+    .footer .links { margin-bottom: 0.3rem; }
+    .footer .copyright {
+      font-size: 0.8rem;
+      opacity: 0.85;
+    }
+    .footer a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 0.5rem;
+      padding: 0.2rem 0.4rem;
+      border-bottom: 1px solid rgba(255,255,255,0.35);
+      transition: background 0.2s, opacity 0.2s;
+    }
+    .footer a:hover { background: rgba(255,255,255,0.12); opacity: 1; }
+    .footer .sep { opacity: 0.5; margin: 0 0.2rem; }
+    .to-top {
+      position: fixed;
+      right: 1.5rem;
+      bottom: 1.5rem;
+      width: 2.8rem;
+      height: 2.8rem;
+      border: none;
+      border-radius: 50%;
+      background: rgba(255,255,255,0.22);
+      color: #fff;
+      font-size: 1.3rem;
+      line-height: 1;
+      cursor: pointer;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.3s, background 0.2s, transform 0.2s;
+      backdrop-filter: blur(4px);
+      z-index: 10;
+    }
+    .to-top.show { opacity: 1; pointer-events: auto; }
+    .to-top:hover { background: rgba(255,255,255,0.38); transform: translateY(-3px); }
     @keyframes fadeIn {
       from { opacity: 0; transform: translateY(20px); }
       to { opacity: 1; transform: translateY(0); }
@@ -85,6 +131,17 @@
   <h1 class="brand">文明的<span class="accent">视界</span></h1>
 
   <div class="greeting" id="greeting"><!-- 随机欢迎语注入处 --></div>
+
+  <footer class="footer">
+    <div class="links">
+      <a href="privacy.html">隐私政策</a>
+      <span class="sep">·</span>
+      <a href="terms.html">使用条款</a>
+    </div>
+    <div class="copyright">© 2026 文明的视界 | 保留所有权利</div>
+  </footer>
+
+  <button class="to-top" id="toTop" title="返回顶部" aria-label="返回顶部">↑</button>
 
   <script>
     const greetings = [
@@ -143,6 +200,16 @@
     const g = greetings[Math.floor(Math.random() * greetings.length)];
     document.getElementById('greeting').innerHTML =
       g.text + '<div class="sig">' + g.sig + '</div>';
+
+    // 返回顶部按钮逻辑
+    const toTop = document.getElementById('toTop');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 200) toTop.classList.add('show');
+      else toTop.classList.remove('show');
+    }, { passive: true });
+    toTop.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
   </script>
 </body>
 </html>

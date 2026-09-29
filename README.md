@@ -1,30 +1,38 @@
-# welcome-site
+# 文明的视界
 
-Static site for GitHub Pages.
+wlwenming 的个人欢迎页，部署在 GitHub Pages。
 
-## Deploy via GitHub Pages
+线上地址：<https://wlwenming.github.io/home/>
 
-1. Create a new public GitHub repository (e.g. `welcome-site`) and push this folder's contents to the `main` branch:
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial commit: welcome static site"
-   git branch -M main
-   git remote add origin https://github.com/<YOUR_USER>/welcome-site.git
-   git push -U origin main
-   ```
-2. In the repo, go to **Settings → Pages**.
-3. Under **Source**, choose **Deploy from a branch**.
-4. Select branch **`main`** and folder **`/ (root)`**, then **Save**.
-5. Wait ~1 minute. The site will be live at:
-   ```
-   https://<YOUR_USER>.github.io/welcome-site/
-   ```
+## 目录
 
-## Local preview
+页面只放内容。样式、首页脚本和图标分开：
 
-Just open `index.html` in a browser, or:
+- `index.html`、`help.html`、`privacy.html`、`terms.html`、`404.html`：各页内容
+- `assets/css/site.css`：全站样式，颜色和字号集中在文件顶部
+- `assets/js/home.js`：首页随机欢迎语和返回顶部
+- `favicon.svg`、`favicon.ico`：站点图标
+
+## 部署
+
+站点内容在 `main` 分支的根目录。在仓库 **Settings → Pages** 中：
+
+1. Source 选择 **Deploy from a branch**。
+2. Branch 选择 **main**，文件夹选择 **/ (root)**，然后保存。
+3. 大约一分钟后即可通过上面的地址访问。
+
+更新后推送到 `main`：
+
 ```bash
-python3 -m http.server 8000
-# visit http://localhost:8000
+git push -u origin main
 ```
+
+## 本地预览
+
+在仓库根目录执行：
+
+```bash
+npx --yes serve .
+```
+
+也可以直接用浏览器打开 `index.html`。首页欢迎语和「返回顶部」依赖 JavaScript；不执行脚本时会显示一段固定欢迎语。

@@ -3,75 +3,46 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>帮助说明</title>
-  <style>
-    * { box-sizing: border-box; }
-    html, body { margin: 0; padding: 0; }
-    body {
-      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Microsoft YaHei", sans-serif;
-      color: #fff;
-      min-height: 100vh;
-      padding: 2rem 1rem;
-    }
-    .container {
-      max-width: 720px;
-      margin: 0 auto;
-      background: rgba(255, 255, 255, 0.12);
-      backdrop-filter: blur(8px);
-      border-radius: 16px;
-      padding: 2rem 2.5rem;
-      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
-      animation: fadeIn 0.8s ease-out;
-    }
-    h1 { margin-top: 0; font-size: 1.8rem; }
-    h2 { margin-top: 1.5rem; font-size: 1.2rem; border-bottom: 1px solid rgba(255,255,255,0.3); padding-bottom: 0.3rem; }
-    p, li { line-height: 1.7; opacity: 0.95; }
-    ul { padding-left: 1.2rem; }
-    code {
-      background: rgba(0, 0, 0, 0.25);
-      padding: 0.15rem 0.4rem;
-      border-radius: 4px;
-      font-size: 0.9em;
-    }
-    .back {
-      display: inline-block;
-      margin-top: 1.5rem;
-      color: #fff;
-      text-decoration: none;
-      padding: 0.5rem 1rem;
-      border: 1px solid rgba(255,255,255,0.5);
-      border-radius: 8px;
-      transition: background 0.2s;
-    }
-    .back:hover { background: rgba(255,255,255,0.15); }
-    @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(20px); }
-      to { opacity: 1; transform: translateY(0); }
-    }
-  </style>
+  <title>帮助说明 · 文明的视界</title>
+  <meta name="description" content="文明的视界的帮助说明，包括站点介绍、访问地址与反馈方式。">
+  <link rel="canonical" href="https://wlwenming.github.io/home/help.html">
+  <meta property="og:title" content="帮助说明 · 文明的视界">
+  <meta property="og:description" content="文明的视界的帮助说明，包括站点介绍、访问地址与反馈方式。">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://wlwenming.github.io/home/help.html">
+  <meta property="og:locale" content="zh_CN">
+  <meta name="theme-color" content="#5c3b81">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="stylesheet" href="assets/css/site.css">
 </head>
-<body>
-  <div class="container">
+<body class="page-doc">
+  <main class="container">
     <h1>帮助说明</h1>
 
     <h2>关于本站</h2>
     <p>这是 wlwenming 的个人欢迎主页，部署在 GitHub Pages 上，是一个纯静态网站。</p>
 
     <h2>访问地址</h2>
-    <p>主页：<code>https://wlwenming.github.io/home/</code></p>
+    <p>主页：<a href="https://wlwenming.github.io/home/">https://wlwenming.github.io/home/</a></p>
 
     <h2>技术说明</h2>
     <ul>
-      <li>仅使用 HTML 与 CSS，无需任何后端服务。</li>
+      <li>页面由 HTML、CSS 和少量 JavaScript 组成，不需要后端服务。</li>
+      <li>首页欢迎语在浏览器中随机显示。不执行 JavaScript 时，会显示一段固定欢迎语。</li>
       <li>通过 GitHub Pages 自动部署，每次推送 <code>main</code> 分支后约 1 分钟生效。</li>
       <li>建议使用现代浏览器（Chrome、Edge、Safari、Firefox）访问。</li>
     </ul>
 
     <h2>联系方式</h2>
-    <p>如对本站内容有任何疑问或建议，可通过 GitHub Issue 反馈。</p>
+    <p>如对本站内容有疑问或建议，请通过 <a href="https://github.com/wlwenming/home/issues">GitHub Issues</a> 反馈。</p>
 
-    <a class="back" href="index.html">← 返回首页</a>
-  </div>
+    <nav class="doc-nav" aria-label="站内页面">
+      <a href="index.html">首页</a>
+      <a href="help.html" aria-current="page">帮助</a>
+      <a href="privacy.html">隐私政策</a>
+      <a href="terms.html">使用条款</a>
+    </nav>
+  </main>
 </body>
 </html>

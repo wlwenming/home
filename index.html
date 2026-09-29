@@ -17,7 +17,23 @@
       color: #fff;
       text-align: center;
       padding: 1rem;
+      position: relative;
     }
+    .nav {
+      position: absolute;
+      top: 1.2rem;
+      right: 1.5rem;
+    }
+    .nav a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 1rem;
+      padding: 0.4rem 0.9rem;
+      border: 1px solid rgba(255, 255, 255, 0.5);
+      border-radius: 8px;
+      transition: background 0.2s;
+    }
+    .nav a:hover { background: rgba(255, 255, 255, 0.15); }
     h1 {
       font-size: clamp(2.5rem, 9vw, 5.5rem);
       margin: 0 0 1rem;
@@ -38,6 +54,7 @@
   </style>
 </head>
 <body>
+  <nav class="nav"><a href="help.html">help</a></nav>
   <h1>欢迎光临！</h1>
   <p>你好，朋友，很高兴在这里遇见你。</p>
   <p>这是 wlwenming 的个人主页，愿你今天一切顺利。</p>

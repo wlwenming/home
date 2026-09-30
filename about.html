@@ -1,38 +1,54 @@
-# 文明的视界
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>关于 · 文明的视界</title>
+  <meta name="description" content="关于文明的视界，包括站点介绍、访问地址与反馈方式。">
+  <link rel="canonical" href="https://wlwenming.github.io/home/about.html">
+  <meta property="og:title" content="关于 · 文明的视界">
+  <meta property="og:description" content="关于文明的视界，包括站点介绍、访问地址与反馈方式。">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://wlwenming.github.io/home/about.html">
+  <meta property="og:locale" content="zh_CN">
+  <meta name="theme-color" content="#5c3b81">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body class="page-doc">
+  <main class="container">
+    <h1>关于</h1>
 
-wlwenming 的个人欢迎页，部署在 GitHub Pages。
+    <h2>关于本站</h2>
+    <p>这是 wlwenming 的个人欢迎主页，部署在 GitHub Pages 上，是一个纯静态网站。</p>
 
-线上地址：<https://wlwenming.github.io/home/>
+    <h2>访问地址</h2>
+    <p>主页：<a href="https://wlwenming.github.io/home/">https://wlwenming.github.io/home/</a></p>
 
-## 目录
+    <h2>技术说明</h2>
+    <ul>
+      <li>页面由 HTML、CSS 和少量 JavaScript 组成，不需要后端服务。</li>
+      <li>首页欢迎语在浏览器中随机显示。不执行 JavaScript 时，会显示一段固定欢迎语。</li>
+      <li>通过 GitHub Pages 自动部署，每次推送 <code>main</code> 分支后约 1 分钟生效。</li>
+      <li>建议使用现代浏览器（Chrome、Edge、Safari、Firefox）访问。</li>
+    </ul>
 
-页面只放内容。样式、首页脚本和图标分开：
+    <h2>联系方式</h2>
+    <p>如对本站内容有疑问或建议，请通过 <a href="https://github.com/wlwenming/home/issues">GitHub Issues</a> 反馈。</p>
+  </main>
 
-- `index.html`、`about.html`、`ai-hot.html`、`privacy.html`、`terms.html`、`404.html`：各页内容
-- `assets/css/site.css`：全站样式，颜色和字号集中在文件顶部
-- `assets/js/home.js`：首页随机欢迎语和返回顶部
-- `favicon.svg`、`favicon.ico`：站点图标
-
-## 部署
-
-站点内容在 `main` 分支的根目录。在仓库 **Settings → Pages** 中：
-
-1. Source 选择 **Deploy from a branch**。
-2. Branch 选择 **main**，文件夹选择 **/ (root)**，然后保存。
-3. 大约一分钟后即可通过上面的地址访问。
-
-更新后推送到 `main`：
-
-```bash
-git push -u origin main
-```
-
-## 本地预览
-
-在仓库根目录执行：
-
-```bash
-npx --yes serve .
-```
-
-也可以直接用浏览器打开 `index.html`。首页欢迎语和「返回顶部」依赖 JavaScript；不执行脚本时会显示一段固定欢迎语。
+  <footer class="site-footer">
+    <div class="links">
+      <a href="index.html">首页</a>
+      <span class="sep">·</span>
+      <a href="about.html" aria-current="page">关于</a>
+      <span class="sep">·</span>
+      <a href="privacy.html">隐私政策</a>
+      <span class="sep">·</span>
+      <a href="terms.html">使用条款</a>
+    </div>
+    <div class="copyright">© 2026 文明的视界 | 保留所有权利</div>
+  </footer>
+</body>
+</html>

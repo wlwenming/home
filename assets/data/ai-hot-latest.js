@@ -1,68 +1,104 @@
 window.AI_HOT_LATEST = {
   "date": "2026-09-30",
-  "overview": "今日 AI 资讯主要聚焦在智能体工程化、世界模型与具身智能、推理模型、算力基础设施、AI 安全治理和 AI for Science。行业关注点正从单模型能力转向可执行、可验证、可落地的完整系统。",
+  "overview": "今日中文 AI 资讯聚焦 AI Agent、具身智能、算力芯片、AI for Science，数据来自量子位、InfoQ、IT之家等中文科技资讯源。",
   "items": [
     {
-      "topic": "全天候智能体推动 AI 从问答进入办公流程",
-      "progress": "新浪 AI 热点小时报聚焦智能体持续执行任务、调用工具和连接办公应用的产品形态，行业竞争从单轮问答转向长流程任务完成率。",
+      "topic": "Manus 2.0回来了！给AI配手机号和钱包，还能拉群干活",
+      "progress": "给Agent配上手机号，再拉个群",
       "refs": [
         {
-          "name": "新浪新闻",
-          "url": "https://k.sina.cn/article_7857201856_1d45362c001908pbso.html"
+          "name": "量子位",
+          "url": "https://www.qbitai.com/2026/09/499592.html"
         }
       ]
     },
     {
-      "topic": "AI 办公竞争转向上下文工程",
-      "progress": "模型接入企业知识、历史任务和业务权限后，上下文组织、记忆管理与安全边界成为 AI Agent 落地办公场景的关键工程问题。",
+      "topic": "DeepSeek知乎独家发文，首次公开V4.1 Agent训练“大本营”DSec",
+      "progress": "DeepSeek在知乎独家发布技术长文，首次系统阐释了DeepSeek弹性计算（DeepSeek Elastic Compute，DSec）",
       "refs": [
         {
-          "name": "新浪新闻",
-          "url": "http://news.sina.com.cn/s/2026-09-30/doc-initqqvi5728965.shtml"
+          "name": "量子位",
+          "url": "https://www.qbitai.com/2026/09/499308.html"
         }
       ]
     },
     {
-      "topic": "全链路量子增强大模型取得工程化进展",
-      "progress": "澎湃科技报道全链路量子增强大模型的发布，关注张量网络、量子模拟等方法如何与经典计算基础设施结合，探索 Quantum for AI。",
+      "topic": "36家敲钟的机器人公司：赚钱能力差距巨大，商业化也不玩花架子了",
+      "progress": "机器人上市，风向有变",
       "refs": [
         {
-          "name": "澎湃科技",
-          "url": "https://m.thepaper.cn/newsDetail_forward_34177952"
+          "name": "量子位",
+          "url": "https://www.qbitai.com/2026/09/499280.html"
         }
       ]
     },
     {
-      "topic": "国产 AI 算力与产业基础设施持续扩张",
-      "progress": "东方财富科技新闻汇总关注国产算力、数据中心和人工智能产业进展，算力芯片、互联网络、液冷和软件生态正在成为系统竞争的重要组成。",
+      "topic": "DeepSeek官方开源昇腾基础组件，与昇腾共建高效易用的AI芯片软件生态",
+      "progress": "该文章报道了人工智能技术领域的最新进展。",
       "refs": [
         {
-          "name": "东方财富网",
-          "url": "https://caifuhao.eastmoney.com/news/20260930092210784917660"
+          "name": "量子位",
+          "url": "https://www.qbitai.com/2026/09/499263.html"
         }
       ]
     },
     {
-      "topic": "AI Agent 手机进入终端产品阶段",
-      "progress": "荣耀 Magic9 全系列获得首批 AI 智能体手机入网认证，端侧 Agent 开始承担跨应用、多步骤的设备操作任务，端云协同成为消费电子的新方向。",
+      "topic": "OpenAI光速上新GPT-6.1 Sol！一晚上25项更新，都在这里了",
+      "progress": "今年devday牙膏挤爆",
       "refs": [
         {
-          "name": "新浪财经",
-          "url": "http://finance.sina.com.cn/roll/2026-09-30/doc-initqqvm2554092.shtml"
+          "name": "量子位",
+          "url": "https://www.qbitai.com/2026/09/499246.html"
         }
       ]
     },
     {
-      "topic": "世界模型与具身智能加快融合",
-      "progress": "围绕世界模型、空间理解和机器人仿真的产业动作持续增加，模型对物理环境的预测能力正成为具身智能训练和部署的重要基础。",
+      "topic": "IBM 量子处理器仅用 19 秒完成百万次采样，挑战超级计算机 110 年任务",
+      "progress": "IT之家 9 月 30 日消息，美国 BlueQubit 研究团队利用 IBM 最新的 Nighthawk r2 量子处理器完成了一项随机量子线路采样实验，仅用 19 秒就生成了 100 万个样本。BlueQubit 研究人员估计，用 Frontier 超级计算机复现同等任务约需 110 年。 该实验由美国量子计算软件与云平台公司 BlueQubit 理论凝聚态物理学家 Tigran Sedrakyan 领衔。 Nighthawk r2 是一款拥有 120 个量子比特的超导量子处理器，可通过 IBM 云平台访问。研",
       "refs": [
         {
-          "name": "新浪 AI 热点小时报",
-          "url": "https://k.sina.cn/article_7857201856_1d45362c001908pbso.html"
-        },
+          "name": "IT之家",
+          "url": "https://www.ithome.com/1/008/789.htm"
+        }
+      ]
+    },
+    {
+      "topic": "OpenClaw Enterprise 官宣：为智能体提供企业级安全与控制功能",
+      "progress": "IT之家 9 月 30 日消息，OpenClaw 官方当地时间本月 29 日官宣了 OpenClaw Enterprise，这是一个开源中立的 敏感环境持久性智能体管理平台 。 持久性智能体的部署并未像此前预计的那样快速铺开，而这主要是因为智能体领域目前仍缺乏强大的通用安全、保障、治理标准，让企业和组织难以放心使用。 即将发布 1.0 正式版的 OpenClaw Enterprise 正是为此而生，其为智能体引入了企业级控制平面，支持多租户、严格的安全边界、标准化的智能体原语，在智能体生命周期内增强了治理和审计能力",
+      "refs": [
         {
-          "name": "东方财富网",
-          "url": "https://caifuhao.eastmoney.com/news/20260930092210784917660"
+          "name": "IT之家",
+          "url": "https://www.ithome.com/1/008/774.htm"
+        }
+      ]
+    },
+    {
+      "topic": "消息称豆包 AI 个人助手产品叫作“小豆”，计划推出独立 App",
+      "progress": "IT之家 9 月 30 日消息，新浪科技此前曾报道， 豆包在个人助理方向正在推进相关产品规划 ，该探索项目当时代号为“Spell”，主要由豆包手机助手团队主导。 据《读佳》今日消息， 豆包这款产品叫作“小豆” ， 并会推出独立 App 版本 ，小豆的名字在今年暑期就已确定。小豆目前还在内部测试阶段，最终对外版本有可能发生调整，一切以官方发布为准。 据IT之家此前报道，2025 年 12 月， 豆包手机助手技术预览版首次亮相 ，首发搭载于与中兴合作的努比亚 M153 工程样机。 2026 年 9 月， 豆包手机助手消",
+      "refs": [
+        {
+          "name": "IT之家",
+          "url": "https://www.ithome.com/1/008/773.htm"
+        }
+      ]
+    },
+    {
+      "topic": "LG 与微软合作研发智能家居 AI 语音助手，号称可实现流畅自然语音交流",
+      "progress": "IT之家 9 月 30 日消息，据韩媒 EtNews 今天报道，LG 电子今天在首尔江南区举办的微软行业峰会上，展示与微软合作研发的智能家居 AI 语音助手。该产品应用于智能家居中枢设备“ThinQ ON”，号称可实现接近人类交流的对话体验。 据介绍，这款语音助手基于语音到语音（Speech to Speech）智能体技术，融合微软的 Voice Live。它可以支持“插话”功能， 用户在聆听 AI 助手回答时能够继续提出新问题 ，系统会立即中断原有回答，理解用户的新意图并切换对话。 LG 电子计划在年内推出搭载 ",
+      "refs": [
+        {
+          "name": "IT之家",
+          "url": "https://www.ithome.com/1/008/770.htm"
+        }
+      ]
+    },
+    {
+      "topic": "三星 Galaxy Tab S12 Ultra 平板宣传图曝光：7 年安卓更新、主打 AI 技能",
+      "progress": "IT之家 9 月 30 日消息，科技媒体 sammyguru 今天（9 月 30 日）发布博文，分享了一组来自电商平台的图片 ，展示了三星 Galaxy Tab S12 Ultra 和 Galaxy Tab S12+，并显示两款平板 10 月 7 日发布。 Galaxy Tab S12 Ultra 最高提供 16GB 内存与 1TB 存储，搭载联发科天玑 9500 芯片。屏幕为 14.6 英寸 Dynamic AMOLED 2X，分辨率 2960×1848，支持 120Hz 刷新率，S Pen 随盒附赠。IT之家附",
+      "refs": [
+        {
+          "name": "IT之家",
+          "url": "https://www.ithome.com/1/008/762.htm"
         }
       ]
     }

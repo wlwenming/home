@@ -10,10 +10,10 @@
 <body class="page-doc">
   <main class="container update-page">
     <h1>更新 AI 热点</h1>
-    <p>点击采集今日资讯。提交时，当前最新数据会先归档，再写入新的最新数据文件。</p>
+    <p>点击后由 GitHub Actions 从中文 RSS 资讯源实时采集，完成后自动更新最新数据并归档历史数据。</p>
 
     <label class="update-label" for="github-token">GitHub Token（仅本次使用，不会保存）</label>
-    <input class="update-input" id="github-token" type="password" autocomplete="off" placeholder="可选：需要 Contents 写权限">
+    <input class="update-input" id="github-token" type="password" autocomplete="off" placeholder="需要 Actions: Read and write 权限">
 
     <button type="button" class="ai-hot-collect" data-update-start>采集并更新</button>
     <p class="update-status" data-update-status aria-live="polite">等待开始。</p>
@@ -28,8 +28,6 @@
     <div class="copyright">© 2026 文明的视界 | 保留所有权利</div>
   </footer>
 
-  <script src="assets/data/ai-hot-latest.js"></script>
-  <script src="assets/data/ai-hot-history.js"></script>
   <script src="assets/js/update.js"></script>
 </body>
 </html>

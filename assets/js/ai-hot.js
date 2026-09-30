@@ -56,10 +56,15 @@
     return '<div class="ai-hot-cards">' + cards + "</div>";
   }
 
+  function updateTime(day) {
+    if (!day.updated_at) return "更新时间未知";
+    var parts = String(day.updated_at).split(" ");
+    return "更新时间 " + (parts[1] || parts[0]);
+  }
+
   function buildDayBlock(day) {
-    var updatedAt = day.updated_at ? " · 更新于 " + escapeText(day.updated_at) : "";
     return '<div class="ai-hot-day">' +
-      '<div class="ai-hot-date">' + escapeText(day.date) + updatedAt + "</div>" +
+      '<div class="ai-hot-date">' + escapeText(updateTime(day)) + "</div>" +
       '<p class="ai-hot-overview">' + escapeText(day.overview || "") + "</p>" +
       buildCardList(day) +
       "</div>";
@@ -71,7 +76,7 @@
     }
     var items = days.map(function (day) {
       return '<details class="ai-hot-archive-item">' +
-        '<summary>' + escapeText(day.date) + "</summary>" +
+        '<summary>' + escapeText(updateTime(day)) + "</summary>" +
         '<p class="ai-hot-overview">' + escapeText(day.overview || "") + "</p>" +
         buildCardList(day) +
         "</details>";
@@ -103,11 +108,10 @@
     var sorted = data.slice().sort(byDateDesc);
     var today = sorted[0];
     var count = today.items ? today.items.length : 0;
-    var dateLabel = today.date + (today.updated_at ? " · " + today.updated_at : "");
     root.innerHTML =
       '<div class="ai-hot-summary-head">' +
         '<span class="ai-hot-summary-label">今日 AI 热点</span>' +
-        '<span class="ai-hot-summary-date">' + escapeText(dateLabel) + "</span>" +
+        '<span class="ai-hot-summary-date">' + escapeText(updateTime(today)) + "</span>" +
       "</div>" +
       '<p class="ai-hot-summary-overview">' + escapeText(today.overview || "") + "</p>" +
       '<div class="ai-hot-summary-foot">' +

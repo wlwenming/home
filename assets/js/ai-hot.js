@@ -2,7 +2,22 @@
   "use strict";
 
   function getData() {
-    return Array.isArray(window.__AI_HOT_DATA__) ? window.__AI_HOT_DATA__ : null;
+    var latest = window.AI_HOT_LATEST || window.AI_HOT_DATA || window.__AI_HOT_DATA__;
+    if (!latest) return null;
+    var history = Array.isArray(window.AI_HOT_HISTORY) ? window.AI_HOT_HISTORY : [];
+    return [latest].concat(history);
+  }
+
+  function validateData(data) {
+    if (!data || data.length !== 1) return false;
+    var day = data[0];
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(day.date) || !day.overview || !Array.isArray(day.items)) return false;
+    return day.items.length >= 5 && day.items.length <= 10 && day.items.every(function (item) {
+      return item.topic && item.progress && Array.isArray(item.refs) && item.refs.length > 0 &&
+        item.refs.every(function (ref) {
+          return ref.name && /^https?:\/\/[^\s]+$/.test(ref.url);
+        });
+    });
   }
 
   function byDateDesc(a, b) {
@@ -109,15 +124,15 @@
     if (!app && !summary) return;
 
     var data = getData();
-    if (!data) {
+    if (!data || !validateData(data)) {
       var msg = "热点数据加载失败，请稍后刷新页面再试。";
       if (app) failback(app, msg);
       if (summary) failback(summary, msg);
-      if (window.console) console.warn("[ai-hot] data not found on window.__AI_HOT_DATA__");
+      if (window.console) console.warn("[ai-hot] invalid AI_HOT_DATA");
       return;
     }
-    if (app) renderApp(app, data);
     if (summary) renderSummary(summary, data);
+    if (app) renderApp(app, data);
   }
 
   if (document.readyState === "loading") {

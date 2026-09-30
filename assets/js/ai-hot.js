@@ -58,8 +58,7 @@
 
   function updateTime(day) {
     if (!day.updated_at) return "更新时间未知";
-    var parts = String(day.updated_at).split(" ");
-    return "更新时间 " + (parts[1] || parts[0]);
+    return "更新时间 " + String(day.updated_at);
   }
 
   function buildDayBlock(day) {

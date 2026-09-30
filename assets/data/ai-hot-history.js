@@ -1,6 +1,7 @@
 window.AI_HOT_HISTORY = [
   {
     "date": "2026-09-30",
+    "updated_at": "2026-09-30 08:00:00",
     "overview": "今日中文 AI 资讯聚焦 AI Agent、具身智能、算力芯片、AI for Science，数据来自量子位、InfoQ、IT之家等中文科技资讯源。",
     "items": [
       {

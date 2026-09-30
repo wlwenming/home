@@ -81,8 +81,18 @@
       headers: headers,
       body: options && options.body
     }).then(function (response) {
-      if (!response.ok) throw new Error("GitHub API " + response.status);
-      return response.json();
+      return response.text().then(function (text) {
+        var body = {};
+        try {
+          body = text ? JSON.parse(text) : {};
+        } catch (error) {
+          body = {};
+        }
+        if (!response.ok) {
+          throw new Error("GitHub API " + response.status + (body.message ? ": " + body.message : ""));
+        }
+        return body;
+      });
     });
   }
 

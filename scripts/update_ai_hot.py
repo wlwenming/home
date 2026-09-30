@@ -16,7 +16,8 @@ from zoneinfo import ZoneInfo
 ROOT = Path(__file__).resolve().parents[1]
 LATEST_FILE = ROOT / "assets/data/ai-hot-latest.js"
 HISTORY_FILE = ROOT / "assets/data/ai-hot-history.js"
-TODAY = datetime.now(ZoneInfo("Asia/Shanghai")).date()
+NOW = datetime.now(ZoneInfo("Asia/Shanghai"))
+TODAY = NOW.date()
 AI_TERMS = (
     "AI", "AIGC", "Agent", "智能体", "大模型", "人工智能", "机器学习", "深度学习",
     "生成式", "多模态", "机器人", "算力", "芯片", "量子", "具身", "自动驾驶",
@@ -123,16 +124,23 @@ def main():
 
     latest = {
         "date": TODAY.isoformat(),
+        "updated_at": NOW.strftime("%Y-%m-%d %H:%M:%S"),
         "overview": "今日中文 AI 资讯聚焦 " + "、".join(directions) + "，数据来自量子位、InfoQ、IT之家等中文科技资讯源。",
         "items": [{key: value for key, value in entry.items() if key != "published"} for entry in entries],
     }
     old_latest = read_js(LATEST_FILE, "AI_HOT_LATEST", None)
     old_history = read_js(HISTORY_FILE, "AI_HOT_HISTORY", [])
     archive = ([old_latest] if old_latest else []) + old_history
-    archive = [item for index, item in enumerate(archive) if item and item.get("date") not in {entry.get("date") for entry in archive[:index]}]
+    seen_versions = set()
+    unique_archive = []
+    for item in archive:
+        version = item.get("updated_at") or item.get("date")
+        if item and version not in seen_versions:
+            seen_versions.add(version)
+            unique_archive.append(item)
     write_js(LATEST_FILE, "AI_HOT_LATEST", latest)
-    write_js(HISTORY_FILE, "AI_HOT_HISTORY", archive)
-    print("已生成", len(entries), "条热点，日期", latest["date"], "历史", len(archive), "条")
+    write_js(HISTORY_FILE, "AI_HOT_HISTORY", unique_archive)
+    print("已生成", len(entries), "条热点，时间", latest["updated_at"], "历史", len(unique_archive), "条")
 
 
 if __name__ == "__main__":

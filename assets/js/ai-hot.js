@@ -57,8 +57,9 @@
   }
 
   function buildDayBlock(day) {
+    var updatedAt = day.updated_at ? " · 更新于 " + escapeText(day.updated_at) : "";
     return '<div class="ai-hot-day">' +
-      '<div class="ai-hot-date">' + escapeText(day.date) + "</div>" +
+      '<div class="ai-hot-date">' + escapeText(day.date) + updatedAt + "</div>" +
       '<p class="ai-hot-overview">' + escapeText(day.overview || "") + "</p>" +
       buildCardList(day) +
       "</div>";
@@ -102,10 +103,11 @@
     var sorted = data.slice().sort(byDateDesc);
     var today = sorted[0];
     var count = today.items ? today.items.length : 0;
+    var dateLabel = today.date + (today.updated_at ? " · " + today.updated_at : "");
     root.innerHTML =
       '<div class="ai-hot-summary-head">' +
         '<span class="ai-hot-summary-label">今日 AI 热点</span>' +
-        '<span class="ai-hot-summary-date">' + escapeText(today.date) + "</span>" +
+        '<span class="ai-hot-summary-date">' + escapeText(dateLabel) + "</span>" +
       "</div>" +
       '<p class="ai-hot-summary-overview">' + escapeText(today.overview || "") + "</p>" +
       '<div class="ai-hot-summary-foot">' +

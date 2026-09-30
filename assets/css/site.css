@@ -181,7 +181,24 @@ a {
 }
 
 .page-doc {
-  padding: 1rem 0.75rem 1.75rem;
+  min-height: 100vh;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0.75rem 0;
+}
+
+.page-doc main.container {
+  flex: 1 0 auto;
+}
+
+.page-doc .site-footer {
+  flex-shrink: 0;
+  max-width: var(--page);
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
 }
 
 .container {
@@ -244,11 +261,214 @@ a {
 
 @media (min-width: 640px) {
   .page-doc {
-    padding: 2rem 1rem 2.5rem;
+    padding: 2rem 1rem 0;
   }
 
   .container {
     padding: 2rem 2.5rem 2.2rem;
+  }
+
+  .page-doc .site-footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+/* AI 热点 · 首页摘要卡片 */
+.ai-hot-card {
+  flex-shrink: 0;
+  width: 100%;
+  max-width: var(--measure);
+  margin: 0 auto 2rem;
+  padding: 0 1.25rem;
+  animation: fadeIn 1s ease-out;
+}
+
+.ai-hot-card .container {
+  padding: 1.15rem 1.4rem 1.25rem;
+}
+
+.ai-hot-summary-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.4rem;
+}
+
+.ai-hot-summary-label {
+  font-size: 1.15rem;
+  font-weight: 600;
+}
+
+.ai-hot-summary-date {
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+.ai-hot-summary-overview {
+  margin: 0 0 0.8rem;
+  line-height: 1.7;
+  font-size: 0.97rem;
+}
+
+.ai-hot-summary-foot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  font-size: 0.88rem;
+  opacity: 0.85;
+}
+
+.ai-hot-summary-link {
+  text-decoration: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.45);
+  padding: 0.15rem 0;
+}
+
+.ai-hot-summary-link:hover {
+  background: var(--color-card);
+}
+
+/* AI 热点 · 专栏页 */
+.ai-hot-section-title {
+  margin-top: 1.6rem;
+  font-size: 1.15rem;
+  border-bottom: 1px solid var(--color-line);
+  padding-bottom: 0.3rem;
+}
+
+.ai-hot-section-title:first-child {
+  margin-top: 0;
+}
+
+.ai-hot-day {
+  margin-top: 0.6rem;
+}
+
+.ai-hot-date {
+  font-size: 0.9rem;
+  opacity: 0.85;
+  margin-bottom: 0.2rem;
+}
+
+.ai-hot-overview {
+  margin: 0.4rem 0 1rem;
+  line-height: 1.75;
+}
+
+.ai-hot-archive {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 0.6rem;
+}
+
+.ai-hot-archive-item {
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius);
+  padding: 0.5rem 0.9rem;
+  background: var(--color-card);
+}
+
+.ai-hot-archive-item > summary {
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 0.97rem;
+  padding: 0.2rem 0;
+  list-style: none;
+}
+
+.ai-hot-archive-item > summary::-webkit-details-marker {
+  display: none;
+}
+
+.ai-hot-archive-item > summary::before {
+  content: "▸";
+  display: inline-block;
+  margin-right: 0.4rem;
+  transition: transform 0.2s ease;
+}
+
+.ai-hot-archive-item[open] > summary::before {
+  transform: rotate(90deg);
+}
+
+.ai-hot-archive-item[open] {
+  padding-bottom: 0.8rem;
+}
+
+.ai-hot-empty {
+  font-size: 0.95rem;
+  opacity: 0.8;
+  margin: 0.5rem 0;
+}
+
+/* 热点条目卡片（专栏页与归档共用） */
+.ai-hot-cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.8rem;
+  margin: 0.4rem 0 0;
+}
+
+.ai-hot-card-item {
+  background: var(--color-card);
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-card);
+  padding: 0.85rem 1rem 0.95rem;
+  box-shadow: var(--shadow-card);
+}
+
+.ai-hot-card-topic {
+  margin: 0 0 0.4rem;
+  font-size: 1.02rem;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.ai-hot-card-progress {
+  margin: 0 0 0.6rem;
+  font-size: 0.93rem;
+  line-height: 1.7;
+}
+
+.ai-hot-card-refs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 0.7rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid var(--color-line);
+  font-size: 0.88rem;
+}
+
+.ai-hot-card-refs a {
+  text-decoration: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.45);
+  padding: 0.1rem 0;
+  text-underline-offset: 0.18em;
+  overflow-wrap: anywhere;
+}
+
+.ai-hot-card-refs a:hover {
+  background: var(--color-fill);
+}
+
+@media (min-width: 640px) {
+  .ai-hot-cards {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+
+  .ai-hot-card-item {
+    padding: 1rem 1.15rem 1.1rem;
+  }
+
+  .ai-hot-archive-item .ai-hot-cards {
+    grid-template-columns: 1fr;
   }
 }
 

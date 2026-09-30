@@ -41,6 +41,11 @@ body {
 
 a {
   color: var(--color-text);
+  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease, transform 0.12s ease;
+}
+
+a:active {
+  transform: translateY(1px);
 }
 
 .topbar a,
@@ -55,6 +60,11 @@ a {
   color: var(--color-text);
   text-decoration: none;
   line-height: 1.2;
+}
+
+.topbar a:active,
+.doc-nav a:active {
+  transform: translateY(1px);
 }
 
 .topbar a:hover,
@@ -169,6 +179,7 @@ a {
   z-index: 10;
   visibility: hidden;
   pointer-events: none;
+  transition: background-color 0.2s ease, opacity 0.2s ease, transform 0.12s ease;
 }
 
 .to-top.is-visible {
@@ -178,6 +189,11 @@ a {
 
 .to-top:hover {
   background: var(--color-fill-strong);
+}
+
+.to-top:active,
+.ai-hot-collect:active:not(:disabled) {
+  transform: translateY(1px) scale(0.98);
 }
 
 .page-doc {
@@ -431,6 +447,7 @@ a {
   color: var(--color-text);
   font: inherit;
   cursor: pointer;
+  transition: background-color 0.2s ease, opacity 0.2s ease, transform 0.12s ease;
 }
 
 .ai-hot-collect:hover:not(:disabled) {

@@ -61,6 +61,11 @@
     return String(day.updated_at);
   }
 
+  function clockTime(day) {
+    var match = day.updated_at && String(day.updated_at).match(/(\d{2}:\d{2}:\d{2})$/);
+    return match ? match[1] : "时间未知";
+  }
+
   function buildDayBlock(day) {
     return '<div class="ai-hot-day">' +
       '<div class="ai-hot-date">' + escapeText(updateTime(day)) + "</div>" +
@@ -110,7 +115,7 @@
     root.innerHTML =
       '<div class="ai-hot-summary-head">' +
         '<span class="ai-hot-summary-label">今日 AI 热点</span>' +
-        '<span class="ai-hot-summary-date">' + escapeText(updateTime(today)) + "</span>" +
+        '<span class="ai-hot-summary-date">' + escapeText(clockTime(today)) + "</span>" +
       "</div>" +
       '<p class="ai-hot-summary-overview">' + escapeText(today.overview || "") + "</p>" +
       '<div class="ai-hot-summary-foot">' +

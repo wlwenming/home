@@ -7,7 +7,7 @@
   <meta name="description" content="文明的视界，一个安静的个人欢迎页。每次来访都会遇见一句不同的问候。">
   <link rel="canonical" href="https://wlwenming.github.io/home/">
   <meta property="og:title" content="文明的视界">
-  <meta property="og:description" content="文明的视界，一个安静的个人欢迎页。每次来访都会遇见一句不同的问候。">
+  <meta property="og:description" content="一个安静的个人主页，愿你每天都有不一样的收获。">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://wlwenming.github.io/home/">
   <meta property="og:locale" content="zh_CN">
@@ -18,7 +18,7 @@
 </head>
 <body class="page-home">
   <header class="topbar">
-    <a href="help.html">帮助</a>
+    <a href="ai-hot.html">AI 热点</a>
   </header>
 
   <main>
@@ -31,8 +31,18 @@
     </div>
   </main>
 
+  <section class="ai-hot-card" aria-label="今日 AI 热点">
+    <div class="container">
+      <div data-ai-hot-summary>
+        <p class="ai-hot-empty">正在加载热点数据……</p>
+      </div>
+    </div>
+  </section>
+
   <footer class="site-footer" data-site-footer>
     <div class="links">
+      <a href="about.html">关于</a>
+      <span class="sep">·</span>
       <a href="privacy.html">隐私政策</a>
       <span class="sep">·</span>
       <a href="terms.html">使用条款</a>
@@ -43,5 +53,7 @@
   <button class="to-top" type="button" data-to-top tabindex="-1" aria-hidden="true" title="返回顶部" aria-label="返回顶部">↑</button>
 
   <script src="assets/js/home.js"></script>
+  <script src="assets/data/ai-hot.js"></script>
+  <script src="assets/js/ai-hot.js"></script>
 </body>
 </html>

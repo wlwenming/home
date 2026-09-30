@@ -368,10 +368,14 @@ a {
 }
 
 .ai-hot-archive-item {
-  border: 1px solid var(--color-line);
-  border-radius: var(--radius);
-  padding: 0.5rem 0.9rem;
-  background: var(--color-card);
+  border: 0;
+  padding: 0;
+  background: transparent;
+}
+
+.ai-hot-archive-item + .ai-hot-archive-item {
+  border-top: 1px solid var(--color-line);
+  padding-top: 0.75rem;
 }
 
 .ai-hot-archive-item > summary {
@@ -398,7 +402,11 @@ a {
 }
 
 .ai-hot-archive-item[open] {
-  padding-bottom: 0.8rem;
+  padding-bottom: 0;
+}
+
+.ai-hot-archive-item > .ai-hot-overview {
+  margin: 0.7rem 0 0.8rem;
 }
 
 .ai-hot-empty {
@@ -529,6 +537,11 @@ a {
 
   .ai-hot-archive-item .ai-hot-cards {
     grid-template-columns: 1fr;
+  }
+
+  .ai-hot-archive-item .ai-hot-card-item {
+    box-shadow: none;
+    border-radius: var(--radius);
   }
 }
 

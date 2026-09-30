@@ -57,8 +57,8 @@
   }
 
   function updateTime(day) {
-    if (!day.updated_at) return "更新时间未知";
-    return "更新时间 " + String(day.updated_at);
+    if (!day.updated_at) return "时间未知";
+    return String(day.updated_at);
   }
 
   function buildDayBlock(day) {

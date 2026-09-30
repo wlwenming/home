@@ -3,7 +3,7 @@ name: Update AI hot data
 on:
   workflow_dispatch:
   schedule:
-    - cron: "15 1 * * *"
+    - cron: "0 0,9 * * *"
 
 permissions:
   contents: write

@@ -39,6 +39,6 @@ npx --yes serve .
 
 ## AI 热点自动更新
 
-`.github/workflows/update-ai-hot.yml` 会每天北京时间 09:15 自动运行，也可以在 GitHub Actions 页面手动运行。脚本从量子位、InfoQ、IT之家等中文 RSS 源筛选当天 AI 资讯，更新 `assets/data/ai-hot-latest.js`，并将上一版数据归档到 `assets/data/ai-hot-history.js`。
+`.github/workflows/update-ai-hot.yml` 会每天北京时间 08:00 和 17:00 自动运行，也可以在 GitHub Actions 页面手动运行。脚本从量子位、InfoQ、IT之家等中文 RSS 源筛选当天 AI 资讯，更新 `assets/data/ai-hot-latest.js`，并将上一版数据归档到 `assets/data/ai-hot-history.js`。
 
 `update.html` 可手动触发 workflow。页面使用的 Fine-grained Token 只需要仓库范围为 `wlwenming/home`，并授予 `Actions: Read and write`；Token 只在当前页面内存中使用，不会写入仓库。

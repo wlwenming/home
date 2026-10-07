@@ -1,8 +1,38 @@
 window.AI_HOT_LATEST = {
   "date": "2026-10-07",
-  "updated_at": "2026-10-07 11:14:26",
-  "overview": "今日中文 AI 资讯聚焦 算力芯片，数据来自量子位、InfoQ、IT之家等中文科技资讯源。",
+  "updated_at": "2026-10-07 23:53:53",
+  "overview": "今日中文 AI 资讯聚焦 AI Agent、算力芯片，数据来自量子位、InfoQ、IT之家等中文科技资讯源。",
   "items": [
+    {
+      "topic": "《怪物史莱克》编剧也来了！这家AI影视公司，视频模型全球第二！",
+      "progress": "该文章报道了人工智能技术领域的最新进展。",
+      "refs": [
+        {
+          "name": "量子位",
+          "url": "https://www.qbitai.com/2026/10/501803.html"
+        }
+      ]
+    },
+    {
+      "topic": "晕…这年头还有说人话的AI不",
+      "progress": "该文章报道了人工智能技术领域的最新进展。",
+      "refs": [
+        {
+          "name": "量子位",
+          "url": "https://www.qbitai.com/2026/10/501796.html"
+        }
+      ]
+    },
+    {
+      "topic": "Meshy 跻身 a16z 消费级 AI 应用月收入 Top 50，为榜单唯一 AI 3D 公司",
+      "progress": "在 a16z 首份消费级 AI 应用月收入榜单中，Meshy 位列第 31 名，与 OpenAI、Anthropic、Canva、Superhuman、Higgsfield 等共同上榜",
+      "refs": [
+        {
+          "name": "量子位",
+          "url": "https://www.qbitai.com/2026/10/501791.html"
+        }
+      ]
+    },
     {
       "topic": "OpenAI一夜甩出722篇数学论文！黎曼霍奇BSD全上阵，数学家：读不过来",
       "progress": "三位菲尔兹奖得主：不代表认可",
@@ -14,92 +44,62 @@ window.AI_HOT_LATEST = {
       ]
     },
     {
-      "topic": "谷歌 Fitbit Edge 手环再曝光：内置 AI 健身教练，4 种配色组合",
-      "progress": "IT之家 10 月 7 日消息，科技媒体 dealabs 昨日（10 月 6 日）发布博文，爆料称谷歌新款手环 Fitbit Edge 欧洲售价为 179 欧元 （IT之家注：现汇率约合 1,352 元人民币） ，较 Fitbit Charge 6 高 20 欧元 （现汇率约合 151 元人民币） ， 配备 Gemini 个性化教练。 IT之家注：原文称该手环“电池支持用户更换”，但没有提供具体细节。 IT之家此前援引科技媒体 Android Headline 报道， 分享了谷歌 Fitbit Edge 的渲染图等",
+      "topic": "“iPod 之父”法德尔分析 Rabbit R1 等初代 AI 设备为何失败：没能真正满足任何需求",
+      "progress": "IT之家 10 月 7 日消息，被誉为“iPod 之父”的托尼 · 法德尔最近在首届麻省理工未来节发表演讲。他上台时展示了三款曾经备受追捧的第一代 AI 设备：Rabbit R1、Humane AI Pin 和 Limitless Pendant，并说道：“这些产品背后的公司都找过我，希望我能给些建议，然而我都拒绝了。” 托尼 · 法德尔表示：“这些设备失败的原因很简单， 它们没能真正满足任何实际需求 。极客看到这些小玩意可能觉得很有意思，但普通用户只会觉得，它们确实很酷，但和我的生活并没什么关系。所以你必须真正理",
       "refs": [
         {
           "name": "IT之家",
-          "url": "https://www.ithome.com/1/010/172.htm"
+          "url": "https://www.ithome.com/1/010/299.htm"
         }
       ]
     },
     {
-      "topic": "谷歌 AI 图像模型 Nano Banana 2.1 发布，提升视觉设计、蒙版编辑、主体一致性",
-      "progress": "IT之家 10 月 7 日消息，谷歌于今日正式发布了 Nano Banana 2.1，这是该公司 AI 图像生成与编辑模型的升级版本。谷歌强调，新版 Nano Banana 2.1 实现了全方位提升，在视觉设计、基于蒙版的图像编辑以及主体一致性这几方面的进步尤为突出。 今年早些时候，谷歌推出了 Nano Banana 2，也被称作 Gemini 3.1 Flash Image。Nano Banana 2 在拥有谷歌 Flash 系列模型高速特性的同时，实现了与 Nano Banana Pro 同级别的出图质量。谷歌",
+      "topic": "适配大屏：Meta 推出 iPad 版 Muse AI 智能体",
+      "progress": "IT之家 10 月 7 日消息，Meta 现已将 Muse AI 智能体适配苹果 iPad 平台， 同时新增 Canva、Dropbox、Figma、QuickBooks、GitHub、Klaviyo、Zoom 等连接器 。 IT之家了解到，Muse 是 Meta 推出的 AI 智能体应用程序，主要竞争对手有 Grok Bot、ChatGPT Dots 和 OpenClaw 等。过去几周，这款 App 一直位居美国 App Store 免费 iPhone 应用下载榜首位。 此外，该应用最早于 9 月登陆 iPhon",
       "refs": [
         {
           "name": "IT之家",
-          "url": "https://www.ithome.com/1/010/149.htm"
+          "url": "https://www.ithome.com/1/010/295.htm"
         }
       ]
     },
     {
-      "topic": "AI 颠覆担忧消退，美国软件股创 2026 年阶段新高",
-      "progress": "IT之家 10 月 7 日消息，据路透社报道，受盈利预期大幅上调的推动，美国软件类股票正创出 2026 年阶段新高；多位分析师据此认为，此前市场对于人工智能将颠覆整个软件行业的担忧很大程度上被夸大了。 IT之家注意到，标普 500 软件与服务指数周二上涨 1.3%，创下自 2025 年 11 月以来的最高点位。在此之前，该指数在 7‑9 月这个季度录得自 2020 年第二季度之后最大的季度涨幅。 赛富时（Salesforce）、ServiceNow、埃森哲（Accenture）等软件企业交出亮眼的财报业绩，再加上各",
+      "topic": "赛豆 AIVA ME7 量产路测车无伪谍照曝光，定位介于轿车与 SUV 之间的跨界车",
+      "progress": "IT之家 10 月 7 日消息，博主 @SugarDesign 今日曝光了赛豆 AIVA ME7 量产版路测无伪谍照。 从图中可以看到，AIVA ME7 的车身造型延续 AIVA Origin Concept 概念车的设计， 车顶处配有激光雷达 ，预计将支持高阶智能辅助驾驶功能。 参考IT之家此前报道，今年 9 月底，赛豆科技（重庆市沙坪坝区与赛力斯共同投资）旗下 AIVA 品牌首款量产车型 AIVA ME7 在法国巴黎尚普拉特勒城堡完成全球首秀。 据介绍，AIVA ME7 定位介于轿车与 SUV 之间的跨界车，提",
       "refs": [
         {
           "name": "IT之家",
-          "url": "https://www.ithome.com/1/010/141.htm"
+          "url": "https://www.ithome.com/1/010/294.htm"
         }
       ]
     },
     {
-      "topic": "OpenAI 发布又一批 AI 数学研究成果，攻破数百个悬而未决难题",
-      "progress": "IT之家 10 月 7 日消息，OpenAI 在一批包含 722 份手稿、涵盖 372 个结果家族的文件中，公布了某款未发布的前沿模型解决的多项长期存在的数学难题。 IT之家注意到，这一举措延续了其一系列突破性成果，这些成果既给数学界部分人士留下了深刻印象，也引发了不安，同时还带来了关于研究伦理和学术行为的疑问。据负责以负责任的方式传达这些成果、新成立的精英数学家独立咨询小组 AGMAI 介绍，此次公布的内容包含对“数百个”未解决问题的解答。 数周以来外界一直在期待这批成果，不过在此之前，OpenAI 始终没有说明",
+      "topic": "谷歌 SynthID 面向全球用户开放，可检测 AI 生成内容",
+      "progress": "IT之家 10 月 7 日消息，谷歌公司昨天宣布，其 AI 生成内容检测网站 SynthID 已面向全球用户开放，用户可使用该产品检测图片、视频或音频是否由 AI 生成。 据介绍，该网站使用 SynthID 识别媒体内容是否由 AI 生成。作为参考， 谷歌 2023 年推出 SynthID ，这是一种嵌入在 Nano Banana、Veo 和 Lyria 模型的隐形水印。除此之外， OpenAI、英伟达和 Kakao 也支持该工具 。 谷歌已经将 SynthID 验证功能集成到 Gemini 应用和 Google ",
       "refs": [
         {
           "name": "IT之家",
-          "url": "https://www.ithome.com/1/010/137.htm"
+          "url": "https://www.ithome.com/1/010/293.htm"
         }
       ]
     },
     {
-      "topic": "落实特朗普行政令，美国司法部要求员工改称 AI 为“超级智能”",
-      "progress": "IT之家 10 月 7 日消息，路透社看到的一份备忘录显示，美国司法部于当地时间周二向内部工作人员下达指示：在绝大多数场合提及这项技术时（包括法庭相关文书当中），应当使用“超级智能”，而不再使用“人工智能”一词。 代理副总检察长特伦特 · 麦科特（Trent McCotter）签发了这项指令。此前一周，美国总统唐纳德 · 特朗普（Donald Trump）已经签署行政命令，要求联邦各机构完成用词替换；特朗普表示，新叫法可以更加贴切地反映这项飞速发展技术所具备的潜力。 这份备忘录写明，司法部员工在对外沟通、政策文件以",
+      "topic": "谷歌携手 Unity 推出 AI 游戏平台 Playground：支持自然语言创作，降低开发门槛",
+      "progress": "IT之家 10 月 7 日消息，谷歌今日宣布与 Unity 达成合作，推出实验性 AI 游戏平台 Playground。用户可在此凭借简短的提示词创建游戏，大大降低游戏开发门槛。 IT之家了解到，Playground 采用对话式界面设计，用户只需要输入需要构建的内容，就可以指导 AI 开发游戏。得到初稿后可以进一步调整物理效果、修改游戏规则或自定义角色。 Playground 基于浏览器运行，支持电脑、手机等设备。一款游戏做好后，用户可以将其共享给家人或朋友，或发布到 Explore 展示页，与社区分享成果。 未来",
       "refs": [
         {
           "name": "IT之家",
-          "url": "https://www.ithome.com/1/010/135.htm"
+          "url": "https://www.ithome.com/1/010/289.htm"
         }
       ]
     },
     {
-      "topic": "消息称 SpaceX 计划募资 400 亿美元，用于采购英伟达 AI 芯片",
-      "progress": "IT之家 10 月 7 日消息，据《金融时报》报道，埃隆 · 马斯克（Elon Musk）旗下的 SpaceX 正计划募资 400 亿美元 （IT之家注：现汇率约合 2,685.79 亿元人民币） 。本轮融资由阿波罗全球管理（Apollo Global Management）牵头，资金将用于采购英伟达芯片。这家同时涉足人工智能与火箭业务的企业正在加大投入，押注该芯片厂商的先进技术。 据知情人士透露，该公司计划通过银行贷款筹集约 100 亿美元 （现汇率约合 671.45 亿元人民币） ，再发行 300 亿美元 （现",
+      "topic": "华为余承东：极紫外光刻（EUV）设备是制造先进芯片的关键，国内目前正在研发",
+      "progress": "IT之家 10 月 7 日消息，华为海外 X 账号昨日发布了 9 月 29 日的国际媒体圆桌会议摘要。华为常务董事、产品投资评审委员会主任、终端 BG 董事长余承东与多家国际媒体的记者就华为消费者业务及 HarmonyOS 生态系统进行了交流。 在被问及关于 AI、硬件与 EUV 的问题时，余承东表示，极紫外光刻（EUV）设备当然是制造先进芯片的关键。 中国目前正在研发这些设备 ，但现阶段国内仍然依靠深紫外光刻（DUV）。 逻辑折叠（LogicFolding）技术，是在获取某些技术受到限制的情况下，用来提升能力的一",
       "refs": [
         {
           "name": "IT之家",
-          "url": "https://www.ithome.com/1/010/134.htm"
-        }
-      ]
-    },
-    {
-      "topic": "LibreOffice：短期内默认版本不内置 AI 功能，用户可通过扩展自行接入本地模型",
-      "progress": "IT之家 10 月 7 日消息，如果你正在寻找一款不使用人工智能的文档编辑软件，LibreOffice 或许正是适合你的选择。 开发这款开源文档编辑软件 LibreOffice 的非营利机构文档基金会（The Document Foundation），于本周在一篇博客文章中表示，该机构并非一味排斥人工智能，但在可预见的未来，“不会”在自家软件当中加入人工智能功能。 这篇博客发布的几周之前，也就是八月下旬，LibreOffice 刚刚推出了最新版本。当时这家非营利组织就已经重申，这套软件“不包含任何生成式人工智能功能",
-      "refs": [
-        {
-          "name": "IT之家",
-          "url": "https://www.ithome.com/1/010/132.htm"
-        }
-      ]
-    },
-    {
-      "topic": "已挖出十几万漏洞，Anthropic 向更多安全团队开放其最强 Claude 模型",
-      "progress": "IT之家 10 月 7 日消息，据路透社报道，Anthropic 正在扩大一项计划，允许经过审核的网络安全专业人员在更少安全防护的情况下测试其最强大的人工智能模型，此前该公司的“玻璃翼计划（Project Glasswing）”今年已帮助发现了超过 10 万个软件漏洞。 据IT之家了解，玻璃翼计划旨在保障全球关键软件的安全。该计划的合作方在 4 月至 7 月期间，至少找到了 129000 个已经核实的漏洞。而 Anthropic 自身开展的开源扫描工作，在 4 月到 10 月之间又额外发现了 5500 个漏洞。 到",
-      "refs": [
-        {
-          "name": "IT之家",
-          "url": "https://www.ithome.com/1/010/127.htm"
-        }
-      ]
-    },
-    {
-      "topic": "谷歌推出 EmbeddingGemma 2：支持多模态、7.4 亿参数量化手机端运行只需 191MB 内存",
-      "progress": "IT之家 10 月 7 日消息，去年谷歌推出了 EmbeddingGemma，为开发者提供轻量高质量的文本嵌入方案，下载量已超 2000 万次，广泛应用于端侧搜索工具和隐私优先检索增强生成（ RAG ）管线。 如今谷歌正式推出 EmbeddingGemma 2 ，将能力从文本扩展到代码、图像、视频、音频，可将这些内容统一映射到同一个嵌入空间。 IT之家援引博文介绍，该模型基于 Gemma 4 架构开发，采用商业友好的 Apache 2.0 许可发布，总参数为 7.4 亿，非常适合端侧推理。 EmbeddingGem",
-      "refs": [
-        {
-          "name": "IT之家",
-          "url": "https://www.ithome.com/1/010/125.htm"
+          "url": "https://www.ithome.com/1/010/286.htm"
         }
       ]
     }

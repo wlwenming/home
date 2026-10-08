@@ -1,8 +1,18 @@
 window.AI_HOT_LATEST = {
   "date": "2026-10-08",
-  "updated_at": "2026-10-08 11:30:00",
-  "overview": "今日中文 AI 资讯聚焦 AI Agent、大模型、具身智能，数据来自量子位、InfoQ、IT之家等中文科技资讯源。",
+  "updated_at": "2026-10-08 23:56:50",
+  "overview": "今日中文 AI 资讯聚焦 AI Agent、大模型、算力芯片，数据来自量子位、InfoQ、IT之家等中文科技资讯源。",
   "items": [
+    {
+      "topic": "搭载NVIDIA RTX Spark™ N1X超级芯片：联想YOGA Pro 15开启盲约，重塑个人生产力边界",
+      "progress": "联想YOGA Pro 15 RTX Spark笔记本电脑，于10月8日9:00正式开启全网盲约。",
+      "refs": [
+        {
+          "name": "量子位",
+          "url": "https://www.qbitai.com/2026/10/502020.html"
+        }
+      ]
+    },
     {
       "topic": "大模型原生智能体手机STEPX Neo将于10月13日正式发布",
       "progress": "该文章报道了人工智能技术领域的最新进展。",
@@ -14,92 +24,42 @@ window.AI_HOT_LATEST = {
       ]
     },
     {
-      "topic": "Claude新模型发布！跑分暴击GPT-6 Luna，价格比梁文谷还便宜，OpenAI只能送重置卡挽尊",
-      "progress": "小模型新守门员",
+      "topic": "余承东：未来肯定会有更多华为手机采用基于韬定律的逻辑折叠芯片",
+      "progress": "IT之家 10 月 8 日消息，在 5 月 25 日的 2026 国际电路与系统研讨会上，华为公司董事、半导体业务部总裁何庭波时隔 7 年再次回到公众视野，并在主旨演讲中首次提出半导体全新演进路径 ——“韬（τ）定律”。 这是中国在全球半导体领域首次提出指导产业发展的新原则 。 华为常务董事、产品投资评审委员会主任、终端 BG 董事长余承东在国际媒体圆桌会议上表示，Mate 90 系列智能手机搭载了最新的麒麟 9050 Pro 芯片，整机性能较上一代提升 31%。 其中，巴龙调制解调器、图像信号处理器（ISP）、移",
       "refs": [
         {
-          "name": "量子位",
-          "url": "https://www.qbitai.com/2026/10/501832.html"
+          "name": "IT之家",
+          "url": "https://www.ithome.com/1/010/737.htm"
         }
       ]
     },
     {
-      "topic": "阶跃终端首款大模型原生智能体手机 STEPX Neo 发布定档：10 月 13 日见",
-      "progress": "IT之家 10 月 8 日消息，阶跃终端官微今天（8 日）上午宣布，阶跃终端首款大模型原生智能体手机 STEPX Neo 将于 10 月 13 日 19 时正式发布。 就在不久前的 9 月 23 日，阶跃终端 AI 手机端侧生成式 AI 服务 通过网信部门备案 。 值得一提的是，今年 7 月，阶跃终端首款智能体手机 STEPX Neo 亮相 2026 世界人工智能大会，IT之家现场实拍如下图： 这台手机戴着橙黄色的保护壳， 运行智能体原生系统 Step AOS 。其桌面 UI 采用近年来较为流行的圆角矩形图标，部分",
+      "topic": "亚马逊发布 Alexa Tablet 平板电脑：接替 Fire Tablet，全面支持 Alexa+ AI",
+      "progress": "IT之家 10 月 8 日消息，Amazon（亚马逊）当地时间今日正式发布了接替此前 Fire Tablet 系列的 Alexa Tablet 平板电脑。这些产品运行 Android 操作系统， 可访问完整的 Google Play 商店 。 首批 Alexa Tablet 包括三款产品：Alexa Tablet 12 Pro、Alexa Tablet 11、Alexa Tablet 8。这些型号均拥有铝合金一体成型机身，都 内置 Alexa+ 人工智能助手功能 。 Alexa Tablet 12 Pro 基于联发",
       "refs": [
         {
           "name": "IT之家",
-          "url": "https://www.ithome.com/1/010/416.htm"
+          "url": "https://www.ithome.com/1/010/715.htm"
         }
       ]
     },
     {
-      "topic": "惠普战 66 Air 商务轻薄本上架：\"Wildcat Lake\" + OLED，到手 5099.15 元起",
-      "progress": "IT之家 10 月 8 日消息，HP（惠普）现已在电商平台上架搭载战 66 Air (ZHAN66 14 Air G2i) 商务轻薄笔记本电脑。其基于第 3 代英特尔酷睿处理器 \"Wildcat Lake\"，配备 OLED 屏幕。 战 66 Air 采用三面铝合金机身， 最薄处仅 8.38mm ， 起始质量 1.19kg ，支持近 180° 开合；屏幕分辨率 2880×1800、刷新率 120Hz、亮度 500nits、色域 100% DCI-P3，覆盖高强度玻璃；内置 70Whr 电池。 这一机型拥有背光键盘、大",
+      "topic": "Alphacool 带来多款 GPU 单槽冷头，支持 NVIDIA、AMD 专业显卡",
+      "progress": "IT之家 10 月 8 日消息，Alphacool 当地时间今日宣布扩展其 ES 1-Slot Design 系列分体式液冷显卡单槽冷头家族， 为 4 款最新一代专业显卡提供支持 。 此次发布的冷头分别兼容 NVIDIA RTX PRO 4000 / 4500 / 6000（工作站版本）Blackwell Edition、AMD Radeon AI PRO R9700。 这 4 款冷头均采用全覆盖设计，拥有镀铬铜底和碳纤维饰面，进出水口位于末端， 适用于多卡工作站与服务器系统 。 NVIDIA RTX PRO 40",
       "refs": [
         {
           "name": "IT之家",
-          "url": "https://www.ithome.com/1/010/395.htm"
+          "url": "https://www.ithome.com/1/010/709.htm"
         }
       ]
     },
     {
-      "topic": "警告“AI 或灭绝人类”的前 Anthropic 研究员：某种意义上，我曾研究让 AI 取代自己",
-      "progress": "IT之家 10 月 8 日消息，据《商业内幕》报道，曾在 Anthropic 和 OpenAI 任职的研究员雅各布 · 考克森警告，AI 很快就能自主开展研究，人类可能完全无法掌控此后的发展。 27 岁的考克森曾在 Anthropic 从事模型能力研究，上个月公开宣布辞职。当地时间 5 日，他向纽约市议员发出警告，称 AI 可能威胁人类生存。 考克森在纽约市议会有关 AI 风险的听证会上作证称，顶尖前沿 AI 实验室的首要目标， 是让 AI 研究实现自动化 。“我在上一份工作中，某种意义上就是在研究 怎么让 AI ",
+      "topic": "谷歌云发布 Gemini Agent，定位“通用工作智能体”",
+      "progress": "IT之家 10 月 8 日消息，谷歌云今天在 Gemini at Work 2026 发布会上宣布，面向企业客户推出 Gemini 智能体（Gemini Agent）。这款产品定位“通用工作智能体”， 支持 Gemini Enterprise 、Workspace 以及第三方服务 。 谷歌表示，Gemini Agent 只需要用户给出目标就能完成工作，支持回答问题、处理知识型工作、创建媒体内容，以及编写程序。 例如，当你的经理用邮件要求你制作项目最近进展 PPT 时，Workspace Intelligence 会",
       "refs": [
         {
           "name": "IT之家",
-          "url": "https://www.ithome.com/1/010/394.htm"
-        }
-      ]
-    },
-    {
-      "topic": "黄仁勋焦虑 AI 需求降温，曝英伟达拟再投 10 亿美元加码人形机器人企业 Figure",
-      "progress": "IT之家 10 月 8 日消息，当地时间 7 日，据 The Information 援引一名知情人士消息称，英伟达曾讨论向人形机器人制造商 Figure 再投资 10 亿美元 （IT之家注：现汇率约合 67.12 亿元人民币） ，此前尚无报道披露这笔投资计划。Figure 寻求更多融资，投前估值约为 380 亿美元 （现汇率约合 2,550.73 亿元人民币） 。 据悉，英伟达本就是 Figure 的投资者；一年前，Figure 按同样估值融资超过 10 亿美元 （现汇率约合 67.12 亿元人民币） 。 上述知",
-      "refs": [
-        {
-          "name": "IT之家",
-          "url": "https://www.ithome.com/1/010/387.htm"
-        }
-      ]
-    },
-    {
-      "topic": "“白宫 AI 沙皇”履新第一站定在硅谷，消息称会见英伟达黄仁勋、OpenAI 奥尔特曼等巨头 CEO",
-      "progress": "IT之家 10 月 8 日消息，据彭博社今天（8 日）早间报道，美国国家情报总监、新科“白宫 AI 沙皇”杰伊 · 克莱顿接下了另一项职务：领导特朗普口中所称的“超级智能工作组”。履新后的第一站是硅谷，他将与 AI 行业多名重量级高管见面。 据知情人士透露，克莱顿此行将会见 英伟达的黄仁勋、OpenAI 的奥尔特曼、Anthropic 的达里奥 · 阿莫代伊和 Meta 的马克 · 扎克伯格 等多名 CEO。 这也是克莱顿接手负责统筹联邦政府 AI 事务的新工作组后，首次与科技行业高管会面。 就在上周，其中不少高管",
-      "refs": [
-        {
-          "name": "IT之家",
-          "url": "https://www.ithome.com/1/010/373.htm"
-        }
-      ]
-    },
-    {
-      "topic": "美国一男子因利用 AI 骗取音乐版权收入被判 18 个月监禁并罚没 800 万美元",
-      "progress": "IT之家 10 月 8 日消息，美国司法部当地时间本月 6 日发布公告，表示该国北卡罗来纳州男子 Michael Smith 因利用 AI 骗取音乐版权收入被判 18 个月监禁并罚没 800 万美元 （IT之家注：现汇率约合 5,370 万元人民币） 违法收入。 Michael Smith 在 2017~2024 年 利用人工智能生成了数十万首歌曲 ，此后通过上万个使用虚假邮箱和非法获取的借记卡创建的虚假账户 在流媒体平台上线这些歌曲 ，然后利用庞大的机器人账户矩阵 进行欺诈性播放 以获取违法收入。 图源：Pexe",
-      "refs": [
-        {
-          "name": "IT之家",
-          "url": "https://www.ithome.com/1/010/378.htm"
-        }
-      ]
-    },
-    {
-      "topic": "优必选机器人再进车企：携手一汽-大众推进人形机器人在物流场景应用落地",
-      "progress": "IT之家 10 月 8 日消息，优必选今日发文，宣布已与一汽-大众汽车有限公司达成战略合作，双方将共同推进具身智能机器人在物流领域的应用场景开发及测试，同时构建示范应用场景，加速人形机器人在智能制造领域的部署与应用。 IT之家此前报道，优必选 Walker S Lite 此前已进入一汽-大众青岛分公司的国家级智能制造示范工厂进行车辆质检实训，与工厂自动化控制系统实现无缝集成对接，能够精准、高效地执行复杂任务。双方此次合作是在既有基础上向物流场景的进一步拓展。 面向人形机器人在工业制造等真实场景的落地应用，优必选已构",
-      "refs": [
-        {
-          "name": "IT之家",
-          "url": "https://www.ithome.com/1/010/376.htm"
-        }
-      ]
-    },
-    {
-      "topic": "马斯克：Grok Bot 不再只认自家模型，按用户任务择优用 Claude 等最佳 AI",
-      "progress": "IT之家 10 月 8 日消息，全球首富埃隆 · 马斯克（Elon Musk）昨日（10 月 7 日）在 X 平台发布重要说明，宣布旗下 Grok Bot 不再局限于 SpaceXAI 自研的 Grok 系列模型， 将根据具体任务自动选择“最好的后端模型”。 马斯克在推文中展望未来，表示 Grok Bot 将会根据用户任务，调用包括 Claude Opus 5.5、Midjourney、Suno 以及其他领先 API，系统将以“最有可能给用户最佳结果”为标准进行选择。IT之家附上相关截图如下： 在技术策略方面，Gr",
-      "refs": [
-        {
-          "name": "IT之家",
-          "url": "https://www.ithome.com/1/010/359.htm"
+          "url": "https://www.ithome.com/1/010/706.htm"
         }
       ]
     }

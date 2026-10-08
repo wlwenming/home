@@ -1,105 +1,105 @@
 window.AI_HOT_LATEST = {
-  "date": "2026-10-07",
-  "updated_at": "2026-10-07 23:53:53",
-  "overview": "今日中文 AI 资讯聚焦 AI Agent、算力芯片，数据来自量子位、InfoQ、IT之家等中文科技资讯源。",
+  "date": "2026-10-08",
+  "updated_at": "2026-10-08 11:30:00",
+  "overview": "今日中文 AI 资讯聚焦 AI Agent、大模型、具身智能，数据来自量子位、InfoQ、IT之家等中文科技资讯源。",
   "items": [
     {
-      "topic": "《怪物史莱克》编剧也来了！这家AI影视公司，视频模型全球第二！",
+      "topic": "大模型原生智能体手机STEPX Neo将于10月13日正式发布",
       "progress": "该文章报道了人工智能技术领域的最新进展。",
       "refs": [
         {
           "name": "量子位",
-          "url": "https://www.qbitai.com/2026/10/501803.html"
+          "url": "https://www.qbitai.com/2026/10/501915.html"
         }
       ]
     },
     {
-      "topic": "晕…这年头还有说人话的AI不",
-      "progress": "该文章报道了人工智能技术领域的最新进展。",
+      "topic": "Claude新模型发布！跑分暴击GPT-6 Luna，价格比梁文谷还便宜，OpenAI只能送重置卡挽尊",
+      "progress": "小模型新守门员",
       "refs": [
         {
           "name": "量子位",
-          "url": "https://www.qbitai.com/2026/10/501796.html"
+          "url": "https://www.qbitai.com/2026/10/501832.html"
         }
       ]
     },
     {
-      "topic": "Meshy 跻身 a16z 消费级 AI 应用月收入 Top 50，为榜单唯一 AI 3D 公司",
-      "progress": "在 a16z 首份消费级 AI 应用月收入榜单中，Meshy 位列第 31 名，与 OpenAI、Anthropic、Canva、Superhuman、Higgsfield 等共同上榜",
-      "refs": [
-        {
-          "name": "量子位",
-          "url": "https://www.qbitai.com/2026/10/501791.html"
-        }
-      ]
-    },
-    {
-      "topic": "OpenAI一夜甩出722篇数学论文！黎曼霍奇BSD全上阵，数学家：读不过来",
-      "progress": "三位菲尔兹奖得主：不代表认可",
-      "refs": [
-        {
-          "name": "量子位",
-          "url": "https://www.qbitai.com/2026/10/501749.html"
-        }
-      ]
-    },
-    {
-      "topic": "“iPod 之父”法德尔分析 Rabbit R1 等初代 AI 设备为何失败：没能真正满足任何需求",
-      "progress": "IT之家 10 月 7 日消息，被誉为“iPod 之父”的托尼 · 法德尔最近在首届麻省理工未来节发表演讲。他上台时展示了三款曾经备受追捧的第一代 AI 设备：Rabbit R1、Humane AI Pin 和 Limitless Pendant，并说道：“这些产品背后的公司都找过我，希望我能给些建议，然而我都拒绝了。” 托尼 · 法德尔表示：“这些设备失败的原因很简单， 它们没能真正满足任何实际需求 。极客看到这些小玩意可能觉得很有意思，但普通用户只会觉得，它们确实很酷，但和我的生活并没什么关系。所以你必须真正理",
+      "topic": "阶跃终端首款大模型原生智能体手机 STEPX Neo 发布定档：10 月 13 日见",
+      "progress": "IT之家 10 月 8 日消息，阶跃终端官微今天（8 日）上午宣布，阶跃终端首款大模型原生智能体手机 STEPX Neo 将于 10 月 13 日 19 时正式发布。 就在不久前的 9 月 23 日，阶跃终端 AI 手机端侧生成式 AI 服务 通过网信部门备案 。 值得一提的是，今年 7 月，阶跃终端首款智能体手机 STEPX Neo 亮相 2026 世界人工智能大会，IT之家现场实拍如下图： 这台手机戴着橙黄色的保护壳， 运行智能体原生系统 Step AOS 。其桌面 UI 采用近年来较为流行的圆角矩形图标，部分",
       "refs": [
         {
           "name": "IT之家",
-          "url": "https://www.ithome.com/1/010/299.htm"
+          "url": "https://www.ithome.com/1/010/416.htm"
         }
       ]
     },
     {
-      "topic": "适配大屏：Meta 推出 iPad 版 Muse AI 智能体",
-      "progress": "IT之家 10 月 7 日消息，Meta 现已将 Muse AI 智能体适配苹果 iPad 平台， 同时新增 Canva、Dropbox、Figma、QuickBooks、GitHub、Klaviyo、Zoom 等连接器 。 IT之家了解到，Muse 是 Meta 推出的 AI 智能体应用程序，主要竞争对手有 Grok Bot、ChatGPT Dots 和 OpenClaw 等。过去几周，这款 App 一直位居美国 App Store 免费 iPhone 应用下载榜首位。 此外，该应用最早于 9 月登陆 iPhon",
+      "topic": "惠普战 66 Air 商务轻薄本上架：\"Wildcat Lake\" + OLED，到手 5099.15 元起",
+      "progress": "IT之家 10 月 8 日消息，HP（惠普）现已在电商平台上架搭载战 66 Air (ZHAN66 14 Air G2i) 商务轻薄笔记本电脑。其基于第 3 代英特尔酷睿处理器 \"Wildcat Lake\"，配备 OLED 屏幕。 战 66 Air 采用三面铝合金机身， 最薄处仅 8.38mm ， 起始质量 1.19kg ，支持近 180° 开合；屏幕分辨率 2880×1800、刷新率 120Hz、亮度 500nits、色域 100% DCI-P3，覆盖高强度玻璃；内置 70Whr 电池。 这一机型拥有背光键盘、大",
       "refs": [
         {
           "name": "IT之家",
-          "url": "https://www.ithome.com/1/010/295.htm"
+          "url": "https://www.ithome.com/1/010/395.htm"
         }
       ]
     },
     {
-      "topic": "赛豆 AIVA ME7 量产路测车无伪谍照曝光，定位介于轿车与 SUV 之间的跨界车",
-      "progress": "IT之家 10 月 7 日消息，博主 @SugarDesign 今日曝光了赛豆 AIVA ME7 量产版路测无伪谍照。 从图中可以看到，AIVA ME7 的车身造型延续 AIVA Origin Concept 概念车的设计， 车顶处配有激光雷达 ，预计将支持高阶智能辅助驾驶功能。 参考IT之家此前报道，今年 9 月底，赛豆科技（重庆市沙坪坝区与赛力斯共同投资）旗下 AIVA 品牌首款量产车型 AIVA ME7 在法国巴黎尚普拉特勒城堡完成全球首秀。 据介绍，AIVA ME7 定位介于轿车与 SUV 之间的跨界车，提",
+      "topic": "警告“AI 或灭绝人类”的前 Anthropic 研究员：某种意义上，我曾研究让 AI 取代自己",
+      "progress": "IT之家 10 月 8 日消息，据《商业内幕》报道，曾在 Anthropic 和 OpenAI 任职的研究员雅各布 · 考克森警告，AI 很快就能自主开展研究，人类可能完全无法掌控此后的发展。 27 岁的考克森曾在 Anthropic 从事模型能力研究，上个月公开宣布辞职。当地时间 5 日，他向纽约市议员发出警告，称 AI 可能威胁人类生存。 考克森在纽约市议会有关 AI 风险的听证会上作证称，顶尖前沿 AI 实验室的首要目标， 是让 AI 研究实现自动化 。“我在上一份工作中，某种意义上就是在研究 怎么让 AI ",
       "refs": [
         {
           "name": "IT之家",
-          "url": "https://www.ithome.com/1/010/294.htm"
+          "url": "https://www.ithome.com/1/010/394.htm"
         }
       ]
     },
     {
-      "topic": "谷歌 SynthID 面向全球用户开放，可检测 AI 生成内容",
-      "progress": "IT之家 10 月 7 日消息，谷歌公司昨天宣布，其 AI 生成内容检测网站 SynthID 已面向全球用户开放，用户可使用该产品检测图片、视频或音频是否由 AI 生成。 据介绍，该网站使用 SynthID 识别媒体内容是否由 AI 生成。作为参考， 谷歌 2023 年推出 SynthID ，这是一种嵌入在 Nano Banana、Veo 和 Lyria 模型的隐形水印。除此之外， OpenAI、英伟达和 Kakao 也支持该工具 。 谷歌已经将 SynthID 验证功能集成到 Gemini 应用和 Google ",
+      "topic": "黄仁勋焦虑 AI 需求降温，曝英伟达拟再投 10 亿美元加码人形机器人企业 Figure",
+      "progress": "IT之家 10 月 8 日消息，当地时间 7 日，据 The Information 援引一名知情人士消息称，英伟达曾讨论向人形机器人制造商 Figure 再投资 10 亿美元 （IT之家注：现汇率约合 67.12 亿元人民币） ，此前尚无报道披露这笔投资计划。Figure 寻求更多融资，投前估值约为 380 亿美元 （现汇率约合 2,550.73 亿元人民币） 。 据悉，英伟达本就是 Figure 的投资者；一年前，Figure 按同样估值融资超过 10 亿美元 （现汇率约合 67.12 亿元人民币） 。 上述知",
       "refs": [
         {
           "name": "IT之家",
-          "url": "https://www.ithome.com/1/010/293.htm"
+          "url": "https://www.ithome.com/1/010/387.htm"
         }
       ]
     },
     {
-      "topic": "谷歌携手 Unity 推出 AI 游戏平台 Playground：支持自然语言创作，降低开发门槛",
-      "progress": "IT之家 10 月 7 日消息，谷歌今日宣布与 Unity 达成合作，推出实验性 AI 游戏平台 Playground。用户可在此凭借简短的提示词创建游戏，大大降低游戏开发门槛。 IT之家了解到，Playground 采用对话式界面设计，用户只需要输入需要构建的内容，就可以指导 AI 开发游戏。得到初稿后可以进一步调整物理效果、修改游戏规则或自定义角色。 Playground 基于浏览器运行，支持电脑、手机等设备。一款游戏做好后，用户可以将其共享给家人或朋友，或发布到 Explore 展示页，与社区分享成果。 未来",
+      "topic": "“白宫 AI 沙皇”履新第一站定在硅谷，消息称会见英伟达黄仁勋、OpenAI 奥尔特曼等巨头 CEO",
+      "progress": "IT之家 10 月 8 日消息，据彭博社今天（8 日）早间报道，美国国家情报总监、新科“白宫 AI 沙皇”杰伊 · 克莱顿接下了另一项职务：领导特朗普口中所称的“超级智能工作组”。履新后的第一站是硅谷，他将与 AI 行业多名重量级高管见面。 据知情人士透露，克莱顿此行将会见 英伟达的黄仁勋、OpenAI 的奥尔特曼、Anthropic 的达里奥 · 阿莫代伊和 Meta 的马克 · 扎克伯格 等多名 CEO。 这也是克莱顿接手负责统筹联邦政府 AI 事务的新工作组后，首次与科技行业高管会面。 就在上周，其中不少高管",
       "refs": [
         {
           "name": "IT之家",
-          "url": "https://www.ithome.com/1/010/289.htm"
+          "url": "https://www.ithome.com/1/010/373.htm"
         }
       ]
     },
     {
-      "topic": "华为余承东：极紫外光刻（EUV）设备是制造先进芯片的关键，国内目前正在研发",
-      "progress": "IT之家 10 月 7 日消息，华为海外 X 账号昨日发布了 9 月 29 日的国际媒体圆桌会议摘要。华为常务董事、产品投资评审委员会主任、终端 BG 董事长余承东与多家国际媒体的记者就华为消费者业务及 HarmonyOS 生态系统进行了交流。 在被问及关于 AI、硬件与 EUV 的问题时，余承东表示，极紫外光刻（EUV）设备当然是制造先进芯片的关键。 中国目前正在研发这些设备 ，但现阶段国内仍然依靠深紫外光刻（DUV）。 逻辑折叠（LogicFolding）技术，是在获取某些技术受到限制的情况下，用来提升能力的一",
+      "topic": "美国一男子因利用 AI 骗取音乐版权收入被判 18 个月监禁并罚没 800 万美元",
+      "progress": "IT之家 10 月 8 日消息，美国司法部当地时间本月 6 日发布公告，表示该国北卡罗来纳州男子 Michael Smith 因利用 AI 骗取音乐版权收入被判 18 个月监禁并罚没 800 万美元 （IT之家注：现汇率约合 5,370 万元人民币） 违法收入。 Michael Smith 在 2017~2024 年 利用人工智能生成了数十万首歌曲 ，此后通过上万个使用虚假邮箱和非法获取的借记卡创建的虚假账户 在流媒体平台上线这些歌曲 ，然后利用庞大的机器人账户矩阵 进行欺诈性播放 以获取违法收入。 图源：Pexe",
       "refs": [
         {
           "name": "IT之家",
-          "url": "https://www.ithome.com/1/010/286.htm"
+          "url": "https://www.ithome.com/1/010/378.htm"
+        }
+      ]
+    },
+    {
+      "topic": "优必选机器人再进车企：携手一汽-大众推进人形机器人在物流场景应用落地",
+      "progress": "IT之家 10 月 8 日消息，优必选今日发文，宣布已与一汽-大众汽车有限公司达成战略合作，双方将共同推进具身智能机器人在物流领域的应用场景开发及测试，同时构建示范应用场景，加速人形机器人在智能制造领域的部署与应用。 IT之家此前报道，优必选 Walker S Lite 此前已进入一汽-大众青岛分公司的国家级智能制造示范工厂进行车辆质检实训，与工厂自动化控制系统实现无缝集成对接，能够精准、高效地执行复杂任务。双方此次合作是在既有基础上向物流场景的进一步拓展。 面向人形机器人在工业制造等真实场景的落地应用，优必选已构",
+      "refs": [
+        {
+          "name": "IT之家",
+          "url": "https://www.ithome.com/1/010/376.htm"
+        }
+      ]
+    },
+    {
+      "topic": "马斯克：Grok Bot 不再只认自家模型，按用户任务择优用 Claude 等最佳 AI",
+      "progress": "IT之家 10 月 8 日消息，全球首富埃隆 · 马斯克（Elon Musk）昨日（10 月 7 日）在 X 平台发布重要说明，宣布旗下 Grok Bot 不再局限于 SpaceXAI 自研的 Grok 系列模型， 将根据具体任务自动选择“最好的后端模型”。 马斯克在推文中展望未来，表示 Grok Bot 将会根据用户任务，调用包括 Claude Opus 5.5、Midjourney、Suno 以及其他领先 API，系统将以“最有可能给用户最佳结果”为标准进行选择。IT之家附上相关截图如下： 在技术策略方面，Gr",
+      "refs": [
+        {
+          "name": "IT之家",
+          "url": "https://www.ithome.com/1/010/359.htm"
         }
       ]
     }

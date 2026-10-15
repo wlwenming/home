@@ -1,105 +1,105 @@
 window.AI_HOT_LATEST = {
-  "date": "2026-10-14",
-  "updated_at": "2026-10-14 22:10:11",
-  "overview": "今日中文 AI 资讯聚焦 AI Agent、大模型、算力芯片、AI for Science，数据来自量子位、InfoQ、IT之家等中文科技资讯源。",
+  "date": "2026-10-15",
+  "updated_at": "2026-10-15 10:18:19",
+  "overview": "今日中文 AI 资讯聚焦 算力芯片、AI for Science，数据来自量子位、InfoQ、IT之家等中文科技资讯源。",
   "items": [
     {
-      "topic": "抢先盘点2026全球开发者先锋大会暨国际具身智能技能大赛十大亮点！",
-      "progress": "“具身进实景，劳动最光荣”",
-      "refs": [
-        {
-          "name": "量子位",
-          "url": "https://www.qbitai.com/2026/10/503294.html"
-        }
-      ]
-    },
-    {
-      "topic": "阶跃终端首款「Agent手机」STEPX Neo正式发布，创客先行",
-      "progress": "这妥妥是个物理版Agent啊！",
-      "refs": [
-        {
-          "name": "量子位",
-          "url": "https://www.qbitai.com/2026/10/503244.html"
-        }
-      ]
-    },
-    {
-      "topic": "《变形计》综艺赛博复活，AI版MrBeast爆火，LibTV下场「造星」了",
-      "progress": "从创意到成本，AI正在重写综艺的生产逻辑",
-      "refs": [
-        {
-          "name": "量子位",
-          "url": "https://www.qbitai.com/2026/10/503211.html"
-        }
-      ]
-    },
-    {
-      "topic": "STEPX首款大模型原生智能体手机STEPX Neo正式发布",
-      "progress": "2026年10月13日，大模型原生AI终端品牌STEPX（阶跃终端）旗下首款大模型原生智能体手机STEPX Neo正式发布",
-      "refs": [
-        {
-          "name": "量子位",
-          "url": "https://www.qbitai.com/2026/10/503201.html"
-        }
-      ]
-    },
-    {
-      "topic": "MemSilicon完成国际首款高密度、大容量1T4R 1Gb RRAM芯片流片",
-      "progress": "CMOS标准工艺兼容的1TnR技术路线加速研发。",
-      "refs": [
-        {
-          "name": "量子位",
-          "url": "https://www.qbitai.com/2026/10/503198.html"
-        }
-      ]
-    },
-    {
-      "topic": "国内最年轻AI教授创业：要让世界模型走向全身全模态",
-      "progress": "给Ego补上缺失的交互信息",
-      "refs": [
-        {
-          "name": "量子位",
-          "url": "https://www.qbitai.com/2026/10/503172.html"
-        }
-      ]
-    },
-    {
-      "topic": "调度效率提升80%！商汤大装置助力上海量子城市首批智能体落地",
-      "progress": "从“懂空间”到“能干活”",
-      "refs": [
-        {
-          "name": "量子位",
-          "url": "https://www.qbitai.com/2026/10/503173.html"
-        }
-      ]
-    },
-    {
-      "topic": "响应速度比Claude Code快3倍，实现真正无限上下文！APUS AI开源Reflex Agent",
-      "progress": "10月13日，APUS AI（麒麟合盛网络技术股份有限公司）宣布开源Personal Agent产品Reflex Agent",
-      "refs": [
-        {
-          "name": "量子位",
-          "url": "https://www.qbitai.com/2026/10/503165.html"
-        }
-      ]
-    },
-    {
-      "topic": "告别资料散落，让知识持续积累：openJiuwen首发个人知识空间，重塑个人办公智能体新体验！",
-      "progress": "一次采集，反复使用",
-      "refs": [
-        {
-          "name": "量子位",
-          "url": "https://www.qbitai.com/2026/10/503157.html"
-        }
-      ]
-    },
-    {
-      "topic": "消息称苹果 AirPods Pro 4 耳机将提供双版本，金属高端款首发美国",
-      "progress": "IT之家 10 月 14 日消息，X 平台爆料人士 Early Apple 今日发文称，苹果考虑为 AirPods Pro 4 耳机采用双版本策略，类似 AirPods 4 和 AirPods 5 定价结构。 其中高端版本将采用金属质感外壳 ，与历代产品有所不同， 且首发仅在美国上市 。 作为参考， 苹果历代 AirPods Pro 耳机推出时通常仅有一个版本 。此外IT之家注意到，AirPods 4 拥有两个版本：不支持主动降噪、定价 999 元；支持主动降噪，1399 元。 而到了 AirPods 5，两个版本",
+      "topic": "美联储官员：AI 投资激增加剧了美国通胀压力",
+      "progress": "IT之家 10 月 15 日消息，据《华盛顿邮报》报道，美联储公布的 9 月会议纪要显示，官员们越来越倾向于认为，推动商品价格持续上涨的主要因素是 AI 基础设施建设，而不是关税。 美联储官员指出， AI 投资激增加剧了通胀压力 ，伊朗冲突推高原油和燃料价格也助长了通胀。 IT之家从报道中获悉，多名官员注意到，剔除食品和能源后的商品价格仍快速上涨。会议纪要指出，AI 基础设施建设对物价的影响有加大的迹象，关税上调的影响则逐渐减弱。 《华盛顿邮报》对美联储会议纪要的分析发现，一年前，官员们在讨论如何调控美国经济时还很",
       "refs": [
         {
           "name": "IT之家",
-          "url": "https://www.ithome.com/1/013/105.htm"
+          "url": "https://www.ithome.com/1/013/208.htm"
+        }
+      ]
+    },
+    {
+      "topic": "消息称 OpenAI 洽谈收购开源安全厂商 Trail of Bits，为应对 AI 风险铺路",
+      "progress": "IT之家 10 月 15 日消息，据 The Information 昨日报道，知情人士透露 OpenAI 正在初步洽谈收购总部位于美国纽约的安全研究公司 Trail of Bits 。 报道称，Trail of Bits 以审计软件和区块链系统闻名，此举标志着 OpenAI 在专业网络安全服务领域的扩张。 知情人士称谈判仍在进行中，尚未达成最终协议。两家公司都没有透露潜在的收购价格或财务结构，并且都拒绝公开证实相关讨论。 Trail of Bits 多年来一直深耕漏洞研究、对抗性测试和代码审计。 IT之家注意到，",
+      "refs": [
+        {
+          "name": "IT之家",
+          "url": "https://www.ithome.com/1/013/204.htm"
+        }
+      ]
+    },
+    {
+      "topic": "美股三大指数齐跌、AI 科技股几乎“全军覆没”，韩国首尔综合指数一度触发熔断",
+      "progress": "IT之家 10 月 15 日消息，美股三大指数当地时间 10 月 14 日齐跌，道指一度高开，随后跳水微跌，纳指跌 1.3%，标普 500 指数跌约 1%。 纳斯达克 100 指数跌幅达到 1.5%； 费城半导体指数暴跌 4.3% ，创下 2025 年 5 月以来最长六连跌纪录，累计跌幅超 12%。 AI 科技股几乎“全军覆没” 。CoreWeave 暴跌约 15%，戴尔暴跌 10%，存储芯片、光通信等板块集体暴跌。 IT之家注意到， 苹果公司是为数不多上涨的科技股 ，收盘市值首次站上 5 万亿美元，成为继英伟达后",
+      "refs": [
+        {
+          "name": "IT之家",
+          "url": "https://www.ithome.com/1/013/197.htm"
+        }
+      ]
+    },
+    {
+      "topic": "Rambus 发布面向基于 LPDDR6 的 SOCAMM2 内存模组的 PMIC 芯片",
+      "progress": "IT之家 10 月 15 日消息，三大内存接口芯片企业之一的 Rambus 当地时间本月 13 日发布了面向基于 LPDDR6 DRAM 的 SOCAMM2 内存模组的 PMIC（IT之家注：电源管理集成电路），并宣布这一芯片出样。 作为一种基于 LPDRAM 的可更换内存模组， SOCAMM2 凭借其高性能高能效的优势已得到多家 CPU 制造商的青睐 ：NVIDIA 已在其部分 CPU 上采用该型内存，AMD 也将在 EPYC 9006 LP \"Verano\" 上导入支持。 目前的 SOCAMM2 产品均采用 L",
+      "refs": [
+        {
+          "name": "IT之家",
+          "url": "https://www.ithome.com/1/013/190.htm"
+        }
+      ]
+    },
+    {
+      "topic": "刷新世界纪录，中国科大在量子网络领域实现关键技术突破",
+      "progress": "IT之家 10 月 15 日消息，中国科学技术大学（中国科大）10 月 13 日官宣，该校潘建伟、张强等与济南量子技术研究院郑名扬等， 在紫外波段离子阱存储器和通信光纤的高效量子互联方面取得重要进展 。 研究团队成功实现 393nm 至 1550nm 的高效率、低噪声量子频率转换（QFC，Quantum Frequency Conversion）， 刷新了该波段量子频率转换效率与噪声水平的国际纪录 ，为可扩展量子网络中囚禁离子节点的远程互连提供了关键技术。 10 月 13 日，相关成果发表于国际知名物理学期刊《物理",
+      "refs": [
+        {
+          "name": "IT之家",
+          "url": "https://www.ithome.com/1/013/189.htm"
+        }
+      ]
+    },
+    {
+      "topic": "特斯拉向 HW3 英特尔芯片版老款 Model S/X 推送 FSD v14 Lite",
+      "progress": "IT之家 10 月 15 日消息，北美地区搭载 HW3 硬件的老款 Model S 与 Model X 车主，终于能够收到特斯拉最新的 FSD 版本。特斯拉 X 平台官方账号 Tesla Super Intelligence 宣布，FSD v14 Lite 现已向搭载英特尔芯片的 HW3 版 Model S、Model X 推送，这是这批老车首次获得蒸馏版 FSD 分支系统。 IT之家注意到，本次推送的版本为 FSD（监督版）v14.3 Lite，配套软件更新包 2026.38.5.1。特斯拉车主伦纳德 · 坎帕尼",
+      "refs": [
+        {
+          "name": "IT之家",
+          "url": "https://www.ithome.com/1/013/181.htm"
+        }
+      ]
+    },
+    {
+      "topic": "Epic 借助 AI 打造新版启动器，承认传统编程“太难”",
+      "progress": "IT之家 10 月 15 日消息，Epic Games 推出了新版 Epic Games 启动器的预览版，使用 AI“氛围编程”完成开发。 Epic 游戏商城官网发布的公告称，由于传统编程方式太过困难，公司决定使用 AI 开发新版启动器。“编程太难了。所以我们干脆用氛围编程做了一款全新的 Epic Games 启动器， 不仅速度比旧版快得多，操作响应更灵敏 ，界面也焕然一新。” Epic 也提醒用户，预览版的功能还不够丰富：“把它当成一艘快艇，而不是豪华游艇！当然，它还是有购物车这种先进的数字商务技术的。” Epi",
+      "refs": [
+        {
+          "name": "IT之家",
+          "url": "https://www.ithome.com/1/013/172.htm"
+        }
+      ]
+    },
+    {
+      "topic": "Linux 之父托瓦兹推出首个 AI 辅助开发的补丁：并发文件读取吞吐量提升约 3 倍",
+      "progress": "IT之家 10 月 15 日消息，科技媒体 lwn 昨日（10 月 14 日）发布博文，报道称 Linux 之父林纳斯 · 托瓦兹（Linus Torvalds）在其个人 Git 仓库中推送了一个名为 noref-filemap-read-with-llm 的新开发分支， 正式提交了他首个由大语言模型（LLM）辅助开发的内核补丁系列。 该媒体指出在通常情况下，在 torvalds / linux.git 仓库中，托瓦兹只维护 master 分支，很少在分支上开发，不过在最新出现 noref-filemap-read",
+      "refs": [
+        {
+          "name": "IT之家",
+          "url": "https://www.ithome.com/1/013/171.htm"
+        }
+      ]
+    },
+    {
+      "topic": "YouTube Music 给音乐打 AI 标签，用户听歌可看清“成分表”",
+      "progress": "IT之家 10 月 15 日消息，YouTube 昨日（10 月 14 日）发布公告， 为了提高在音乐作品使用 AI 的透明度，宣布其音乐平台 YouTube Music 上线 AI 音乐标注功能，后续将同步扩展至主 YouTube 应用程序。 根据 YouTube 官方公告，当一首歌曲被识别为“主要使用生成式 AI 创作”（例如使用 AI 模型生成曲调、编曲或合成人声）时，歌曲名称下方、靠近艺人或频道名称的位置，将会出现一个明显的“AI”椭圆形标签。IT之家附上相关图片如下： 听众在收听时可以直接看到该标记。若点",
+      "refs": [
+        {
+          "name": "IT之家",
+          "url": "https://www.ithome.com/1/013/168.htm"
+        }
+      ]
+    },
+    {
+      "topic": "受益于 AI 热潮，分析师预计台积电有望连续第六个季度创下单季盈利新高",
+      "progress": "IT之家 10 月 15 日消息，据路透社报道，全球最大的先进人工智能芯片制造商台积电将于周四发布财报，受科技行业基建投入热潮推动，公司有望连续第六个季度创下盈利新高。 分析师表示，市场对台积电 AI 芯片产能，以及先进芯片封装技术 CoWoS 的需求依旧旺盛。 这家亚洲市值最高的企业是英伟达与苹果的核心供应商，强劲需求推动其市值再创新高，约 2 万亿美元 （IT之家注：现汇率约合 13.41 万亿元人民币） ，几乎是韩国竞争对手三星电子的两倍。 路孚特智能预估系统综合 16 位分析师预测得出的数据显示，台积电预计",
+      "refs": [
+        {
+          "name": "IT之家",
+          "url": "https://www.ithome.com/1/013/167.htm"
         }
       ]
     }
